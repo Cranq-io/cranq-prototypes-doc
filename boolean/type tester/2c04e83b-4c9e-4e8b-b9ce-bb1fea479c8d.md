@@ -1,6 +1,8 @@
 # Type tester
 
-_namespace: boolean_
+_[boolean/{$name}]_
+
+---
 
 Checks whether the `data` input is a boolean.
 
@@ -9,7 +11,11 @@ Example:
 1.  false@0 is received via `data`
 2. true@0 is sent via `is boolean`
 
-Keywords: boolean, logical
+---
+
+__Namespace__: boolean
+
+__Keywords__: boolean, logical
 
 ### Input ports:
 

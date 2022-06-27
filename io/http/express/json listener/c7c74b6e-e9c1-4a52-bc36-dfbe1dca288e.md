@@ -1,10 +1,16 @@
 # JSON listener
 
-_namespace: io/http/express_
+_[io/http/express/{$name}]_
+
+---
 
 Starts an express server set up for handling requests and also responding with JSON bodies.
 
-Keywords: express, server, start, json
+---
+
+__Namespace__: io/http/express
+
+__Keywords__: express, server, start, json
 
 ### Input ports:
 

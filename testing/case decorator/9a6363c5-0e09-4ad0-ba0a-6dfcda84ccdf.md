@@ -1,8 +1,14 @@
 # Case decorator
 
-_namespace: testing_
+_[testing/{$name}]_
+
+---
 
 Decorates assertion records with description and duration.
+
+---
+
+__Namespace__: testing
 
 ### Input ports:
 

@@ -1,10 +1,16 @@
 # Binary reader
 
-_namespace: io/file_
+_[io/file/{$name}]_
+
+---
 
 Reads binary files Base64 encoded.
 
-Keywords: file, read, ingest, binary, base64, image, video, audio, media
+---
+
+__Namespace__: io/file
+
+__Keywords__: file, read, ingest, binary, base64, image, video, audio, media
 
 ### Input ports:
 

@@ -1,6 +1,8 @@
 # Config reader
 
-_namespace: scripting_
+_[scripting/{$name}]_
+
+__Namespace__: scripting
 
 ### Input ports:
 

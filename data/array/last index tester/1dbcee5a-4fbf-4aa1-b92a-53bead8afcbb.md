@@ -1,6 +1,8 @@
 # Last index tester
 
-_namespace: data/array_
+_[data/array/{$name}]_
+
+__Namespace__: data/array
 
 ### Input ports:
 

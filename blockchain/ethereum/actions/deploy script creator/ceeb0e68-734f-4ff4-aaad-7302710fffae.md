@@ -1,8 +1,14 @@
 # Deploy script creator
 
-_namespace: blockchain/ethereum/actions_
+_[blockchain/ethereum/actions/{$name}]_
+
+---
 
 Creates the deploy script to deploy the contract using Hardhat.
+
+---
+
+__Namespace__: blockchain/ethereum/actions
 
 ### Input ports:
 

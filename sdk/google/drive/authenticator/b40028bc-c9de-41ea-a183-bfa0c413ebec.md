@@ -1,6 +1,8 @@
 # Authenticator
 
-_namespace: sdk/google/drive_
+_[sdk/google/drive/{$name}]_
+
+---
 
 Authenticates the service user to use google drive.
 
@@ -10,7 +12,11 @@ Example:
 3. `key` receives "TopSecretKey"@0
 4. `done` sends null@0 
 
-Keywords: google, drive, authentication, sdk, file
+---
+
+__Namespace__: sdk/google/drive
+
+__Keywords__: google, drive, authentication, sdk, file
 
 ### Input ports:
 

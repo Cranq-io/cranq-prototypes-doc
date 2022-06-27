@@ -1,6 +1,8 @@
 # Item deleter
 
-_namespace: data/dictionary_
+_[data/dictionary/{$name}]_
+
+---
 
 Deletes an item from a dictionary by its key. 
 If the item is not found, the original dictionary is forwarded.
@@ -18,7 +20,11 @@ Example B:
 More:
 https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters
 
-Keywords: dictionary, dict, delete, remove, key
+---
+
+__Namespace__: data/dictionary
+
+__Keywords__: dictionary, dict, delete, remove, key
 
 ### Input ports:
 

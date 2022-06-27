@@ -1,6 +1,8 @@
 # Time-based moving buffer
 
-_namespace: streaming_
+_[streaming/{$name}]_
+
+---
 
 Stores the "value" property of samples received in the last `length` seconds and sends them via `buffer`.
 
@@ -19,7 +21,11 @@ Example:
 6. {value: "C", timestamp: 3}@2 received via `sample`
 7. [{value: "B", timestamp: 1}, {value: "C", timestamp: 3}]@1 sent via `buffer`
 
-Keywords: buffer, overflow, stream, rotate, window, seconds
+---
+
+__Namespace__: streaming
+
+__Keywords__: buffer, overflow, stream, rotate, window, seconds
 
 ### Input ports:
 

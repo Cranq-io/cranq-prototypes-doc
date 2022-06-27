@@ -1,6 +1,8 @@
 # Burst tester
 
-_namespace: flow/utils_
+_[flow/utils/{$name}]_
+
+---
 
 Sends true on the last signal in bursts of `length` length.
 
@@ -13,7 +15,11 @@ Example:
 6. "C"@2 received via `data`
 7. true@2 sent via `is last` 
 
-Keywords: series, modulo, detect, test
+---
+
+__Namespace__: flow/utils
+
+__Keywords__: series, modulo, detect, test
 
 ### Input ports:
 

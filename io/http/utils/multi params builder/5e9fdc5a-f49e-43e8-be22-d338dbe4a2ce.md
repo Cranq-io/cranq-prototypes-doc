@@ -1,6 +1,8 @@
 # Multi params builder
 
-_namespace: io/http/utils_
+_[io/http/utils/{$name}]_
+
+---
 
 Builds an array of single query parameters as key-value pairs based on the key received via `key` and the values received via `values`.
 
@@ -9,7 +11,11 @@ Example:
 2. "name"@1 received via `key`
 3. [{"key": "name", "value": "Norah"}, {"key": "name", "value": "Smith"}]@1 sent via `params`
 
-Keywords: construct, create, key-value pairs
+---
+
+__Namespace__: io/http/utils
+
+__Keywords__: construct, create, key-value pairs
 
 ### Input ports:
 

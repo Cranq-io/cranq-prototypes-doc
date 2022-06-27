@@ -1,6 +1,8 @@
 # Tag incrementer
 
-_namespace: flow_
+_[flow/{$name}]_
+
+---
 
 Increments the iterable (colon-separated) part of the received signal's tag.
 
@@ -20,7 +22,11 @@ See also:
 * `flow/Tag nester`
 * `flow/Tag trimer`
 
-Keywords: simulated iteration, fake iteration, synchronization, syncing
+---
+
+__Namespace__: flow
+
+__Keywords__: simulated iteration, fake iteration, synchronization, syncing
 
 ### Input ports:
 

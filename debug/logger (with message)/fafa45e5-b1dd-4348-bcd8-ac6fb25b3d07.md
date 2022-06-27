@@ -1,6 +1,8 @@
 # Logger (with message)
 
-_namespace: debug_
+_[debug/{$name}]_
+
+__Namespace__: debug
 
 ### Input ports:
 

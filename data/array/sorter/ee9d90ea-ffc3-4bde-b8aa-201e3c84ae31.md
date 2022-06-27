@@ -1,8 +1,14 @@
 # Sorter
 
-_namespace: data/array_
+_[data/array/{$name}]_
+
+---
 
 Sorts an array according to the specified reference array (`params`["order"]).
+
+---
+
+__Namespace__: data/array
 
 ### Input ports:
 

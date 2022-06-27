@@ -1,6 +1,8 @@
 # Express server starter
 
-_namespace: scripting/actions_
+_[scripting/actions/{$name}]_
+
+__Namespace__: scripting/actions
 
 ### Input ports:
 
