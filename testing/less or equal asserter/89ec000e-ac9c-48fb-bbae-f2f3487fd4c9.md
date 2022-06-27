@@ -1,0 +1,15 @@
+# Less or equal asserter
+
+_namespace: testing_
+
+### Input ports:
+
+* __actual__: ` any `
+
+
+* __expected__: ` any `
+
+### Output ports:
+
+* __assertion__: ` any `
+
