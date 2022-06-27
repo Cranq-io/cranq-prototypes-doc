@@ -1,6 +1,6 @@
 # Command runner
 
-_[system/{$name}]_
+_[system/Command runner]_
 
 ---
 

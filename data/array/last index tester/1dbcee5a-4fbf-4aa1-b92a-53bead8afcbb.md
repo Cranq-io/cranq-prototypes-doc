@@ -1,6 +1,6 @@
 # Last index tester
 
-_[data/array/{$name}]_
+_[data/array/Last index tester]_
 
 __Namespace__: data/array
 

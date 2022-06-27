@@ -1,6 +1,6 @@
 # Multi params builder
 
-_[io/http/utils/{$name}]_
+_[io/http/utils/Multi params builder]_
 
 ---
 

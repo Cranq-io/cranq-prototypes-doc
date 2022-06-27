@@ -1,6 +1,6 @@
 # Express server starter
 
-_[scripting/actions/{$name}]_
+_[scripting/actions/Express server starter]_
 
 __Namespace__: scripting/actions
 

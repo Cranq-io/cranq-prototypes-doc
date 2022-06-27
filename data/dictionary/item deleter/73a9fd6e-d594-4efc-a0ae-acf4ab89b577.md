@@ -1,6 +1,6 @@
 # Item deleter
 
-_[data/dictionary/{$name}]_
+_[data/dictionary/Item deleter]_
 
 ---
 

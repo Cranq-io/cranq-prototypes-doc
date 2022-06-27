@@ -1,6 +1,6 @@
 # Burst tester
 
-_[flow/utils/{$name}]_
+_[flow/utils/Burst tester]_
 
 ---
 

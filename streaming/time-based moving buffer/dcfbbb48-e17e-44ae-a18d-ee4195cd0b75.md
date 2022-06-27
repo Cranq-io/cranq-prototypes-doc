@@ -1,6 +1,6 @@
 # Time-based moving buffer
 
-_[streaming/{$name}]_
+_[streaming/Time-based moving buffer]_
 
 ---
 

@@ -1,6 +1,6 @@
 # Authenticator
 
-_[sdk/google/drive/{$name}]_
+_[sdk/google/drive/Authenticator]_
 
 ---
 

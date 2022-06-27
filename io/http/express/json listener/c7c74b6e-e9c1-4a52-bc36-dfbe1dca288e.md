@@ -1,6 +1,6 @@
 # JSON listener
 
-_[io/http/express/{$name}]_
+_[io/http/express/JSON listener]_
 
 ---
 

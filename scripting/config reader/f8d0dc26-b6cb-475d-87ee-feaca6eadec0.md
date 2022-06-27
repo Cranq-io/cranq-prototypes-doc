@@ -1,6 +1,6 @@
 # Config reader
 
-_[scripting/{$name}]_
+_[scripting/Config reader]_
 
 __Namespace__: scripting
 

@@ -1,6 +1,6 @@
 # Case decorator
 
-_[testing/{$name}]_
+_[testing/Case decorator]_
 
 ---
 

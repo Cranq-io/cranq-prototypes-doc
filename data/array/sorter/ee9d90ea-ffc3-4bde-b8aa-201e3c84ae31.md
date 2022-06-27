@@ -1,6 +1,6 @@
 # Sorter
 
-_[data/array/{$name}]_
+_[data/array/Sorter]_
 
 ---
 

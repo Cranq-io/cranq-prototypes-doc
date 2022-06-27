@@ -1,6 +1,6 @@
 # Deploy script creator
 
-_[blockchain/ethereum/actions/{$name}]_
+_[blockchain/ethereum/actions/Deploy script creator]_
 
 ---
 

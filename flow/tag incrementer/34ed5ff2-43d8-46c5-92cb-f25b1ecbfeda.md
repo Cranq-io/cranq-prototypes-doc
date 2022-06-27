@@ -1,6 +1,6 @@
 # Tag incrementer
 
-_[flow/{$name}]_
+_[flow/Tag incrementer]_
 
 ---
 

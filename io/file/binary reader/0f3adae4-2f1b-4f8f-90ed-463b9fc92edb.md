@@ -1,6 +1,6 @@
 # Binary reader
 
-_[io/file/{$name}]_
+_[io/file/Binary reader]_
 
 ---
 

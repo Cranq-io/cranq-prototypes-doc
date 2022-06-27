@@ -1,6 +1,6 @@
 # Logger (with message)
 
-_[debug/{$name}]_
+_[debug/Logger (with message)]_
 
 __Namespace__: debug
 

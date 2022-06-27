@@ -1,6 +1,6 @@
 # Less or equal asserter
 
-_[testing/{$name}]_
+_[testing/Less or equal asserter]_
 
 __Namespace__: testing
 

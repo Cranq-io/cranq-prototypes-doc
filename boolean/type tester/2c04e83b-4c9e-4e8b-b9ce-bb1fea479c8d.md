@@ -1,6 +1,6 @@
 # Type tester
 
-_[boolean/{$name}]_
+_[boolean/Type tester]_
 
 ---
 
