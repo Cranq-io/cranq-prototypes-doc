@@ -4,27 +4,25 @@ _[flow/Tag incrementer]_
 
 ---
 
-Increments the iterable (colon-separated) part of the received signal's tag.
-
-Bounces when tag is not iterable.
-
-Used for lining up signals with iterations. (See eg. `data/array/Iterator`.)
-
-Example A (success):
-1. "A"@"x:1" received via `data`
-2. "A"@"x:2" is sent via `data` (output)
-
-Example B (invalid input):
-1. "A"@"x" received via `data`
-2. "A"@"x" is sent via `bounced`
-
-See also:
-* `flow/Tag nester`
-* `flow/Tag trimer`
+Increments the iterable (colon-separated) part of the received signal's tag.  
+  
+Bounces when tag is not iterable.  
+  
+Used for lining up signals with iterations. (See eg. `data/array/Iterator`.)  
+  
+Example A (success):  
+1. "A"@"x:1" received via `data`  
+2. "A"@"x:2" is sent via `data` (output)  
+  
+Example B (invalid input):  
+1. "A"@"x" received via `data`  
+2. "A"@"x" is sent via `bounced`  
+  
+See also:  
+* `flow/Tag nester`  
+* `flow/Tag trimer`  
 
 ---
-
-__Namespace__: flow
 
 __Keywords__: simulated iteration, fake iteration, synchronization, syncing
 

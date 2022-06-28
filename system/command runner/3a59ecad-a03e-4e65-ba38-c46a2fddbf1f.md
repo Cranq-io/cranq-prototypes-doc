@@ -4,15 +4,13 @@ _[system/Command runner]_
 
 ---
 
-Runs the received command string with the received options.
-
-Sends stdout, stderr and optionally error message when the process finished.
-
-Bounces command and options when the node is already in the state of executing a command.
+Runs the received command string with the received options.  
+  
+Sends stdout, stderr and optionally error message when the process finished.  
+  
+Bounces command and options when the node is already in the state of executing a command.  
 
 ---
-
-__Namespace__: system
 
 ### Input ports:
 

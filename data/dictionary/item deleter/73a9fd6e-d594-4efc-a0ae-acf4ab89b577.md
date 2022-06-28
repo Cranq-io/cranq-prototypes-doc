@@ -4,25 +4,23 @@ _[data/dictionary/Item deleter]_
 
 ---
 
-Deletes an item from a dictionary by its key. 
-If the item is not found, the original dictionary is forwarded.
-
-Example A:
-1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`
-2. "first"@0 received via `key`
-3. `dict` sends { "third": 3, "fifth": 5 }@0
-
-Example B:
-1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`
-2. "second"@0 received via `key`
-3. `dict` sends{ "first": 1, "third": 3, "fifth": 5 }@0
-
-More:
-https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters
+Deletes an item from a dictionary by its key.   
+If the item is not found, the original dictionary is forwarded.  
+  
+Example A:  
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`  
+2. "first"@0 received via `key`  
+3. `dict` sends { "third": 3, "fifth": 5 }@0  
+  
+Example B:  
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`  
+2. "second"@0 received via `key`  
+3. `dict` sends{ "first": 1, "third": 3, "fifth": 5 }@0  
+  
+More:  
+https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters  
 
 ---
-
-__Namespace__: data/dictionary
 
 __Keywords__: dictionary, dict, delete, remove, key
 

@@ -4,11 +4,9 @@ _[io/http/express/JSON listener]_
 
 ---
 
-Starts an express server set up for handling requests and also responding with JSON bodies.
+Starts an express server set up for handling requests and also responding with JSON bodies.  
 
 ---
-
-__Namespace__: io/http/express
 
 __Keywords__: express, server, start, json
 

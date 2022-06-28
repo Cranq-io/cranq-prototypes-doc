@@ -2,8 +2,6 @@
 
 _[debug/Logger (with message)]_
 
-__Namespace__: debug
-
 ### Input ports:
 
 * __data__: ` any `

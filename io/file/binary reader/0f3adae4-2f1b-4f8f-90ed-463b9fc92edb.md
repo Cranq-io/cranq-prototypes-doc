@@ -4,11 +4,9 @@ _[io/file/Binary reader]_
 
 ---
 
-Reads binary files Base64 encoded.
+Reads binary files Base64 encoded.  
 
 ---
-
-__Namespace__: io/file
 
 __Keywords__: file, read, ingest, binary, base64, image, video, audio, media
 

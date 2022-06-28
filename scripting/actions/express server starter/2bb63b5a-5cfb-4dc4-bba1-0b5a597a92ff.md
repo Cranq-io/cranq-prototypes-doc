@@ -2,8 +2,6 @@
 
 _[scripting/actions/Express server starter]_
 
-__Namespace__: scripting/actions
-
 ### Input ports:
 
 * __state__: ` any `

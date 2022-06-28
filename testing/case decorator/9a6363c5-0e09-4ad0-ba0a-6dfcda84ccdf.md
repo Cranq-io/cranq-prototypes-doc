@@ -4,11 +4,9 @@ _[testing/Case decorator]_
 
 ---
 
-Decorates assertion records with description and duration.
+Decorates assertion records with description and duration.  
 
 ---
-
-__Namespace__: testing
 
 ### Input ports:
 

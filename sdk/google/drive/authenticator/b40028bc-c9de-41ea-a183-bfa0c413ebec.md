@@ -4,17 +4,15 @@ _[sdk/google/drive/Authenticator]_
 
 ---
 
-Authenticates the service user to use google drive.
-
-Example:
-1. `session Id` receives "drive_session"@0 
-2. `email` receives  "email@email.com"@0
-3. `key` receives "TopSecretKey"@0
-4. `done` sends null@0 
+Authenticates the service user to use google drive.  
+  
+Example:  
+1. `session Id` receives "drive_session"@0   
+2. `email` receives  "email@email.com"@0  
+3. `key` receives "TopSecretKey"@0  
+4. `done` sends null@0   
 
 ---
-
-__Namespace__: sdk/google/drive
 
 __Keywords__: google, drive, authentication, sdk, file
 

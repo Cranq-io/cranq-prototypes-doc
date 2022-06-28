@@ -4,16 +4,14 @@ _[boolean/Type tester]_
 
 ---
 
-Checks whether the `data` input is a boolean.
-
-Example:
-
-1.  false@0 is received via `data`
-2. true@0 is sent via `is boolean`
+Checks whether the `data` input is a boolean.  
+  
+Example:  
+  
+1.  false@0 is received via `data`  
+2. true@0 is sent via `is boolean`  
 
 ---
-
-__Namespace__: boolean
 
 __Keywords__: boolean, logical
 

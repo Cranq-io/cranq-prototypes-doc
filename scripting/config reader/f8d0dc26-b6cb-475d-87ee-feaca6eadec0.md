@@ -2,8 +2,6 @@
 
 _[scripting/Config reader]_
 
-__Namespace__: scripting
-
 ### Input ports:
 
 * __path__: ` string `
