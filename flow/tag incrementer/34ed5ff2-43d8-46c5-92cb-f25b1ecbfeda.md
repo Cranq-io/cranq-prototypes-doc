@@ -30,6 +30,7 @@ __Keywords__: simulated iteration, fake iteration, synchronization, syncing
 
 * __data__: ` any `
 
+
     Receives signal with iterable tag.  
       
     When the tag is not iterable, the signal will be bounced.  
@@ -38,10 +39,12 @@ __Keywords__: simulated iteration, fake iteration, synchronization, syncing
 
 * __data__: ` any `
 
+
     Sends signal with data identical to the one received via `data`, but with incremented tag.  
 
 
 * __bounced__: ` any `
+
 
     Forwards the signal received through `data` when its tag was not iterable.  
 

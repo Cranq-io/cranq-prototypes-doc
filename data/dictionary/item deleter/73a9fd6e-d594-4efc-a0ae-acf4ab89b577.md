@@ -28,6 +28,7 @@ __Keywords__: dictionary, dict, delete, remove, key
 
 * __dict__: ` {string: any} `
 
+
     Receives the dictionary to delete the item from.  
       
     Example:  
@@ -35,6 +36,7 @@ __Keywords__: dictionary, dict, delete, remove, key
 
 
 * __key__: ` string `
+
 
     Receives the key corresponding to the value to delete.  
       
@@ -44,6 +46,7 @@ __Keywords__: dictionary, dict, delete, remove, key
 ### Output ports
 
 * __dict__: ` {string: any} `
+
 
     Sends the resulting dictionary.  
       

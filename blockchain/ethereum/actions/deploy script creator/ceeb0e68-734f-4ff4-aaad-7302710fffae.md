@@ -15,6 +15,7 @@ Creates the deploy script to deploy the contract using Hardhat.
     {"cwd" :string, "path" :string, "contract-name" :string, "result-path" :string, "message" :string}
     ```
 
+
     {  
       "cwd": string, // the working directory  
       "path": string, // the path to write the deploy script to  
@@ -26,11 +27,13 @@ Creates the deploy script to deploy the contract using Hardhat.
 
 * __state__: ` any `
 
+
     Receives script state.  
 
 ### Output ports
 
 * __state__: ` any `
+
 
     Sends updated script state.  
 

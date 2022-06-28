@@ -29,10 +29,12 @@ __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
 * __sample__: ` {"value" :any, "timestamp" :number} `
 
+
     Receives individual samples to be buffered.  
 
 
 * __size__: ` number `
+
 
     Size of the buffer in seconds.  
 
@@ -40,16 +42,19 @@ __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
 * __buffer__: ` {"value" :any, "timestamp" :number}["value"][] `
 
+
     Sends current contents of moving buffer.  
 
 
 * __error__: ` {"message" :string} `
+
 
     Sends error when:  
     * size is equal or less than 0 or not set  
 
 
 * __bounced__: ` {"value" :any, "timestamp" :number} `
+
 
     Forwards input received via `sample` on error.  
 
