@@ -29,8 +29,3 @@ __Keywords__: boolean, logical
 
     Sends true if the input is a boolean, false otherwise.<br>
 
-### Dependencies
-
-
-
-

@@ -48,8 +48,3 @@ __Keywords__: simulated iteration, fake iteration, synchronization, syncing
 
     Forwards the signal received through `data` when its tag was not iterable.<br>
 
-### Dependencies
-
-
-
-
