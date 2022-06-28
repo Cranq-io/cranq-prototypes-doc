@@ -10,11 +10,11 @@ Reads binary files Base64 encoded.
 
 __Keywords__: file, read, ingest, binary, base64, image, video, audio, media
 
-### Input ports:
+### Input ports
 
 * __path__: ` string `
 
-### Output ports:
+### Output ports
 
 * __base64__: ` string `
 

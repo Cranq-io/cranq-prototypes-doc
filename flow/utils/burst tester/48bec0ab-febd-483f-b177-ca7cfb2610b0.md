@@ -19,7 +19,7 @@ Example:
 
 __Keywords__: series, modulo, detect, test
 
-### Input ports:
+### Input ports
 
 * __data__: ` any `
 
@@ -32,7 +32,7 @@ __Keywords__: series, modulo, detect, test
     
     Can be parameter.
 
-### Output ports:
+### Output ports
 
 * __is last__: ` boolean `
 

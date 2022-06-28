@@ -8,7 +8,7 @@ Creates the deploy script to deploy the contract using Hardhat.
 
 ---
 
-### Input ports:
+### Input ports
 
 * __params__: 
     ```
@@ -28,7 +28,7 @@ Creates the deploy script to deploy the contract using Hardhat.
 
     Receives script state.
 
-### Output ports:
+### Output ports
 
 * __state__: ` any `
 

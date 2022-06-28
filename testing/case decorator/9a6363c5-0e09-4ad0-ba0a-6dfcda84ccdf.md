@@ -8,7 +8,7 @@ Decorates assertion records with description and duration.
 
 ---
 
-### Input ports:
+### Input ports
 
 * __start__: ` any `
 
@@ -18,7 +18,7 @@ Decorates assertion records with description and duration.
 
 * __assertion__: ` any `
 
-### Output ports:
+### Output ports
 
 * __assertion__: ` any `
 

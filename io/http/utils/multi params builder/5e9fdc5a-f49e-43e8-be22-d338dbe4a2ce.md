@@ -15,7 +15,7 @@ Example:
 
 __Keywords__: construct, create, key-value pairs
 
-### Input ports:
+### Input ports
 
 * __values__: ` string[] `
 
@@ -26,7 +26,7 @@ __Keywords__: construct, create, key-value pairs
 
     Receives the key part of a key-value pair.
 
-### Output ports:
+### Output ports
 
 * __params__: ` {"key" :string, "value" :string}[] `
 

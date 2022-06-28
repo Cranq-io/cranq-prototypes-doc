@@ -10,7 +10,7 @@ Starts an express server set up for handling requests and also responding with J
 
 __Keywords__: express, server, start, json
 
-### Input ports:
+### Input ports
 
 * __app ID__: ` string `
 
@@ -27,7 +27,7 @@ __Keywords__: express, server, start, json
     Example: 
     3000
 
-### Output ports:
+### Output ports
 
 * __done__: ` any `
 

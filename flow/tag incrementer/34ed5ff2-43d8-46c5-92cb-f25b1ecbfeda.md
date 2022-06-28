@@ -26,7 +26,7 @@ See also:
 
 __Keywords__: simulated iteration, fake iteration, synchronization, syncing
 
-### Input ports:
+### Input ports
 
 * __data__: ` any `
 
@@ -34,7 +34,7 @@ __Keywords__: simulated iteration, fake iteration, synchronization, syncing
     
     When the tag is not iterable, the signal will be bounced.
 
-### Output ports:
+### Output ports
 
 * __data__: ` any `
 

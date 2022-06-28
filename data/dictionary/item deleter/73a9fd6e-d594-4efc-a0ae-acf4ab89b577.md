@@ -24,7 +24,7 @@ https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_d
 
 __Keywords__: dictionary, dict, delete, remove, key
 
-### Input ports:
+### Input ports
 
 * __dict__: ` {string: any} `
 
@@ -41,7 +41,7 @@ __Keywords__: dictionary, dict, delete, remove, key
     Example:
     "third"
 
-### Output ports:
+### Output ports
 
 * __dict__: ` {string: any} `
 

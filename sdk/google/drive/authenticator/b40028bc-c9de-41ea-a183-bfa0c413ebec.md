@@ -16,7 +16,7 @@ Example:
 
 __Keywords__: google, drive, authentication, sdk, file
 
-### Input ports:
+### Input ports
 
 * __session Id__: ` string `
 
@@ -41,7 +41,7 @@ __Keywords__: google, drive, authentication, sdk, file
     Example: 
     "TopSecretKey!"
 
-### Output ports:
+### Output ports
 
 * __done__: ` null `
 

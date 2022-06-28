@@ -25,7 +25,7 @@ Example:
 
 __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
-### Input ports:
+### Input ports
 
 * __sample__: ` {"value" :any, "timestamp" :number} `
 
@@ -36,7 +36,7 @@ __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
     Size of the buffer in seconds.
 
-### Output ports:
+### Output ports
 
 * __buffer__: ` {"value" :any, "timestamp" :number}["value"][] `
 

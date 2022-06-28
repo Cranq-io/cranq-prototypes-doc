@@ -15,13 +15,13 @@ Example:
 
 __Keywords__: boolean, logical
 
-### Input ports:
+### Input ports
 
 * __data__: ` any `
 
     Input value to be checked
 
-### Output ports:
+### Output ports
 
 * __is boolean__: ` boolean `
 

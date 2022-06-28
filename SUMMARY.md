@@ -12,12 +12,9 @@
     * [Record fetcher](<apis/airtable/record fetcher/ac7c9346-2754-45c0-bda3-b406afb038f4.md>)
     * [Record inserter](<apis/airtable/record inserter/909b0a7b-d472-4247-bea4-21d76dd85511.md>)
     * [Records deleter](<apis/airtable/records deleter/5ef6f292-5a1f-44f0-8ddc-664a431082a3.md>)
-    * [Records insert request builder](<apis/airtable/records insert request builder/d0514f70-141c-4f9b-bd03-649cf65cca33.md>)
     * [Records inserter](<apis/airtable/records inserter/14885101-0962-4b6a-aa60-e9b258b0d953.md>)
     * [Records inserter (deprecated)](<apis/airtable/records inserter (deprecated)/6a18cad3-092e-416b-85a0-dccb70bac9a6.md>)
     * utils
-      * [Attachment object creator](<apis/airtable/utils/attachment object creator/9cd5f08d-c34e-4629-b356-c4f317ab8085.md>)
-      * [Attachment object list creator](<apis/airtable/utils/attachment object list creator/cb8c8472-3a34-4401-a05a-bb21c868b3c4.md>)
       * [First record extractor](<apis/airtable/utils/first record extractor/fa139654-80b1-45c4-b8c6-bb08ca09183c.md>)
       * [Record insert request builder](<apis/airtable/utils/record insert request builder/1a822a8a-c517-451b-b8f9-f6e6477e4dea.md>)
       * [Record to AirTable record converter](<apis/airtable/utils/record to airtable record converter/e419e106-2619-4778-a199-51a92a9f1eac.md>)
@@ -44,11 +41,8 @@
   * fx
     * yahoo finance
       * [Daily rates getter](<apis/fx/yahoo finance/daily rates getter/67cb734b-2b3b-4e6f-a484-c0a89ad1f592.md>)
-      * [Historical rates getter](<apis/fx/yahoo finance/historical rates getter/87a03548-e8f0-48ec-9f92-59820452e271.md>)
-    * [Yahoo Finance](<apis/fx/yahoo finance/fc2cea40-7301-49d2-9153-77bb4a811605.md>)
     * [Yahoo Finance historical adjusted closed price & timestamp getter](<apis/fx/yahoo finance historical adjusted closed price & timestamp getter/845cf037-2a0a-4ad0-bcf8-936a1d329c96.md>)
     * [Yahoo Finance rates per date converter](<apis/fx/yahoo finance rates per date converter/959ec88b-c19e-4b61-8366-d8e226ae0baf.md>)
-    * [Yahoo index getter](<apis/fx/yahoo index getter/f6076d3e-cc6f-44a8-ad3f-6ed670208357.md>)
   * ga
     * measurement protocol
       * [Event params builder](<apis/ga/measurement protocol/event params builder/bbe9a665-e0f0-4306-9e28-714672e75425.md>)
@@ -56,55 +50,30 @@
       * [Page tracker](<apis/ga/measurement protocol/page tracker/28fce807-3ba3-41e7-95e0-b5de2d682d6e.md>)
       * [Pageview params builder](<apis/ga/measurement protocol/pageview params builder/222b5565-8640-479d-8a10-160f7b386895.md>)
   * googlemaps
-    * staticmap
-      * utils
-        * [Area definition classifier](<apis/googlemaps/staticmap/utils/area definition classifier/c7503c3a-e862-482b-9c64-e307d2434699.md>)
-        * [Size stringifier](<apis/googlemaps/staticmap/utils/size stringifier/b40443a4-6107-4c82-b732-fce8519c9463.md>)
     * staticmaps
       * [Image fetcher](<apis/googlemaps/staticmaps/image fetcher/13fbc876-2d4c-4dae-94a4-039070fa9771.md>)
-  * nftport
-    * utils
-      * [File URL extractor](<apis/nftport/utils/file url extractor/0af4244d-79fa-484f-8de6-e1a889020183.md>)
-      * [Metadata extractor](<apis/nftport/utils/metadata extractor/64d893ca-9b97-4baa-b635-f6e640219999.md>)
   * what3words
     * [Coordinates to words](<apis/what3words/coordinates to words/b0858c64-019c-48d1-b343-84c829c9736e.md>)
-    * utils
-      * [w3w to canonic coordinates](<apis/what3words/utils/w3w to canonic coordinates/c35e7153-4b17-4025-9915-2595d7ad997f.md>)
     * [Words to coordinates](<apis/what3words/words to coordinates/67b161a5-7851-4817-b1db-ba6c4669bbb3.md>)
 * blinkstick
-  * [Blinker](<blinkstick/blinker/d0f2fb96-30e0-40c3-b9d2-6f94eb5db71c.md>)
   * [Color setter](<blinkstick/color setter/30903559-22a5-48a6-89c8-dec1de83a2ee.md>)
   * pro
     * [Colors setter](<blinkstick/pro/colors setter/49b985c1-6cba-4e64-a531-ed9a7efe3146.md>)
   * strip
     * [Colors setter](<blinkstick/strip/colors setter/d41a8679-4ab6-4a30-8de9-b3dd1b14f135.md>)
-    * [Resetter](<blinkstick/strip/resetter/3b500335-e333-434c-9cd2-4efe764161d1.md>)
-* blinkstick-finance
-  * [Candlestick drawer](<blinkstick-finance/candlestick drawer/499bd30b-8bc9-4ec5-bc78-0a5b7a46b64e.md>)
-  * [Candlestick generator](<blinkstick-finance/candlestick generator/c56ae9c0-2cf2-4d11-93b2-f650ade7a666.md>)
 * blockchain
   * ethereum
     * actions
       * [Contract compiler & deployer](<blockchain/ethereum/actions/contract compiler & deployer/0a8c6280-07d4-48cd-9cab-bbca94d858c6.md>)
-      * [Contract dependencies installer](<blockchain/ethereum/actions/contract dependencies installer/458370ff-65df-4eff-b18e-3fe356c016fb.md>)
       * [Contract file creator](<blockchain/ethereum/actions/contract file creator/fdcc8511-b32f-4080-b7c4-5349cad88f27.md>)
-      * [Contract files creator](<blockchain/ethereum/actions/contract files creator/0123ebdb-7dea-4c9a-8ec4-cc75a262042c.md>)
-      * [Contract folder structure creator](<blockchain/ethereum/actions/contract folder structure creator/868e87e0-8ffd-46f0-a056-286bbc79cf37.md>)
       * [Contract verifier](<blockchain/ethereum/actions/contract verifier/a57f8d8b-778e-42fd-a3bd-8f44a6825cdd.md>)
       * [Contract verifier error handler](<blockchain/ethereum/actions/contract verifier error handler/f79272bb-4dfb-4b19-be5b-8f2c1fa5e6f7.md>)
       * [Deploy script creator](<blockchain/ethereum/actions/deploy script creator/ceeb0e68-734f-4ff4-aaad-7302710fffae.md>)
       * [Deploy script runner](<blockchain/ethereum/actions/deploy script runner/5856cd72-1d61-41a9-afa6-7c48cac41215.md>)
       * [Hardhat config file creator](<blockchain/ethereum/actions/hardhat config file creator/d07b0f52-2ac7-462e-bf0e-1d80099d68b4.md>)
-      * [Mint script creator](<blockchain/ethereum/actions/mint script creator/d063a02a-4958-4c5e-a35b-b977e5c50395.md>)
-      * [Minting dependencies installer](<blockchain/ethereum/actions/minting dependencies installer/95ce0ccb-02ba-4934-90ad-c9e7ce441d07.md>)
-      * [Minting files creator](<blockchain/ethereum/actions/minting files creator/ac667fa7-364a-4070-9d19-e45c913e24d0.md>)
       * [Minting finish listener (simplified)](<blockchain/ethereum/actions/minting finish listener (simplified)/70275440-768b-40ee-b379-d9e5f9c78ed2.md>)
-      * [NFT minter](<blockchain/ethereum/actions/nft minter/55e407a9-1e4b-46df-8d6e-d647823eb7c5.md>)
-      * [NFT minter (simplified)](<blockchain/ethereum/actions/nft minter (simplified)/e09cf759-7737-4a17-9555-795e5dc12764.md>)
       * [Smart contract deployer](<blockchain/ethereum/actions/smart contract deployer/07af5abe-408d-4e83-8e38-79b79ecb26fc.md>)
       * [Smart contract deployer (simplified)](<blockchain/ethereum/actions/smart contract deployer (simplified)/6fdca8c6-8101-4e67-aa5d-6e6b55899652.md>)
-    * [Contracts](<blockchain/ethereum/contracts/da39979b-3ae7-4bf3-9b3a-7091e8e7d301.md>)
-    * [Single NFT contract](<blockchain/ethereum/single nft contract/ee336c7d-e949-405c-be50-2e0cfee6e15b.md>)
   * moralis
     * actions
       * [Bulk auto-metadata uploader](<blockchain/moralis/actions/bulk auto-metadata uploader/1e73bb54-fb0b-418b-bcfb-4c30bf792f96.md>)
@@ -117,16 +86,13 @@
     * api v2
       * [NFT data getter](<blockchain/moralis/api v2/nft data getter/27ed844a-2456-480d-b045-a53d7ef0fbaf.md>)
       * [NFT transfers lister](<blockchain/moralis/api v2/nft transfers lister/a490b7c6-e6f7-4bf1-8ef0-6124b1919f30.md>)
-    * [Folder upload metadata builder](<blockchain/moralis/folder upload metadata builder/2de63119-4c66-45fa-8256-31c294c2dd4f.md>)
     * [Folder uploader](<blockchain/moralis/folder uploader/55a07049-01f0-46b4-aea0-35be55c4ee77.md>)
-    * [Image upload data builder](<blockchain/moralis/image upload data builder/dcb5f06e-2657-4f72-bb92-78e13a5e7adb.md>)
   * nftport
     * api v0
       * [Counterfeit NFT finder with token ID](<blockchain/nftport/api v0/counterfeit nft finder with token id/c7a44cff-e88f-423d-8570-b00dc23cda97.md>)
       * [Counterfeit NFT URL finder with token ID](<blockchain/nftport/api v0/counterfeit nft url finder with token id/b27ed6a7-b0d5-4c9d-af11-a3f53ee3d905.md>)
       * [Created NFT lister](<blockchain/nftport/api v0/created nft lister/a5c362a0-625f-447e-b47a-db20a0fb4596.md>)
       * [GET request dispatcher](<blockchain/nftport/api v0/get request dispatcher/0fb9e1d1-2e47-4422-9d74-ee7dad457193.md>)
-      * [NFT details getter](<blockchain/nftport/api v0/nft details getter/afa19516-c573-4949-84f8-6fc29208d307.md>)
       * [NFT transaction lister by contract](<blockchain/nftport/api v0/nft transaction lister by contract/1c9eaade-df71-44b2-9c13-9696630bc3aa.md>)
       * [POST request dispatcher](<blockchain/nftport/api v0/post request dispatcher/ab9554e7-142f-4ceb-81e4-54a7a2593a03.md>)
       * [Request dispatcher](<blockchain/nftport/api v0/request dispatcher/9a97bdc7-ef78-4360-8027-a77aa6ad7713.md>)
@@ -141,8 +107,6 @@
   * [Or](<boolean/or/39e5f41a-9931-4125-8857-1a0fdf6eba7c.md>)
   * [Reverse condition](<boolean/reverse condition/73b8273f-ef86-4797-8443-ab5662dda5d5.md>)
   * [Type tester](<boolean/type tester/2c04e83b-4c9e-4e8b-b9ce-bb1fea479c8d.md>)
-* crypto
-  * [UUID generator](<crypto/uuid generator/8eb1cd6c-9946-43cf-ae1d-9f726576af53.md>)
 * data
   * array
     * [Aggregation iterator](<data/array/aggregation iterator/0de9bcbb-e9c2-4289-b283-6aae80c9895b.md>)
@@ -164,7 +128,6 @@
     * [Iteration aggregator](<data/array/iteration aggregator/51952631-9524-4b63-9632-2e1a42144020.md>)
     * [Iterator](<data/array/iterator/2e883a44-e1bf-43f9-a100-31ace39f7117.md>)
     * [JSON parser](<data/array/json parser/f433d9cf-770f-46e6-9725-6b747232f86f.md>)
-    * [Last index tester](<data/array/last index tester/1dbcee5a-4fbf-4aa1-b92a-53bead8afcbb.md>)
     * [Last item getter](<data/array/last item getter/4a0c6a02-1411-407f-93a5-636b942968d8.md>)
     * [Length getter](<data/array/length getter/ed50d3dd-e850-434d-a4da-90d05fc35e8b.md>)
     * [Mapper](<data/array/mapper/8193ce91-bc7b-4d4d-89d6-49abe83d2de3.md>)
@@ -176,11 +139,8 @@
     * [Splitter](<data/array/splitter/8771a331-04b7-4612-9953-ecb171f42f50.md>)
     * [Step iterator](<data/array/step iterator/efbace8a-a0c1-4495-932c-7752fcc212d3.md>)
     * [Step iterator (manual tags)](<data/array/step iterator (manual tags)/78684ad8-a8de-4eff-b275-04d97c8391d8.md>)
-    * [Step mapper](<data/array/step mapper/16bee974-0230-4691-820f-710f3f4ae5b6.md>)
     * [Type tester](<data/array/type tester/35c45234-1f7a-41c4-a876-48a6395770b8.md>)
     * [Wrapper](<data/array/wrapper/46f037ec-7586-4653-bcc8-363b7e769c41.md>)
-  * color
-    * [Hex to RGB converter](<data/color/hex to rgb converter/bfcefc47-59ff-4ef0-ab40-a306354dc642.md>)
   * csv
     * [Dictionary array to csv converter](<data/csv/dictionary array to csv converter/fb88e97d-fdb2-4c7c-b657-2e9883064b17.md>)
     * [Naive parser](<data/csv/naive parser/c01fe567-5fec-45ea-83cf-d99c471c6ffd.md>)
@@ -213,9 +173,7 @@
     * [Values getter](<data/dictionary/values getter/3419d082-1bea-4e6b-8dfb-47eabfe792b0.md>)
   * [Equality tester (strict)](<data/equality tester (strict)/e295b2a6-bbd6-4f70-8509-bd7b96b414e6.md>)
   * invertible dictionary
-    * [Builder (key-value pairs)](<data/invertible dictionary/builder (key-value pairs)/3cb57d9b-2966-49f3-9559-151a82900625.md>)
     * [Item adder](<data/invertible dictionary/item adder/4e696d6b-953f-4177-94a6-ec3fc58261a2.md>)
-  * [Sameness tester](<data/sameness tester/1b95222a-f137-4dc1-a3b8-ba206253d51a.md>)
   * [Store](<data/store/485b6519-9402-4e78-8599-47ad52c92b2f.md>)
   * [Store (async)](<data/store (async)/aa5f3cb3-2506-4ac8-93cc-cf7d20b36688.md>)
   * table
@@ -234,17 +192,9 @@
     * [Nodes setter](<data/tree/nodes setter/4841750e-52da-4ef4-a2de-dd356987b398.md>)
     * [Path parser](<data/tree/path parser/fb71609d-1a84-4085-9415-f083f6438788.md>)
     * [Path serializer](<data/tree/path serializer/d03d5cc3-d21a-461e-a49c-fe8c8056cc4a.md>)
-    * [Paths getter](<data/tree/paths getter/6c3d971c-f860-4ad2-a462-2b77bae30df7.md>)
-    * [Paths parser](<data/tree/paths parser/67d203be-1f6e-4ecb-82d2-f7ef31a87118.md>)
-    * [Values getter](<data/tree/values getter/d8d6bcd8-ab31-4e3e-bb3f-ab7110582d05.md>)
     * [Values tester](<data/tree/values tester/f1b5321b-d504-4ae3-9eb9-8dae3426f137.md>)
   * vector
     * [Maximum getter](<data/vector/maximum getter/45872ed3-ac0e-4cec-bffb-48ac276221c5.md>)
-* date
-  * Current date getter
-    * [utc](<date/current date getter/utc/54709884-3a3b-4f20-823d-559234a84721.md>)
-  * [Date to epoch converter](<date/date to epoch converter/6e3bc4a1-8341-4833-96e5-71bb669d1576.md>)
-  * [Midnight getter](<date/midnight getter/bf6df466-ee78-498b-8aab-bb34249a9e40.md>)
 * db
   * sqlite3
     * [Closer](<db/sqlite3/closer/cae9ea4d-7c52-4be7-bed0-47e9879ae76b.md>)
@@ -263,19 +213,9 @@
 * debug
   * [Logger](<debug/logger/1d2a6438-e4bd-4105-b491-cebbb4cae348.md>)
   * [Logger (unformatted)](<debug/logger (unformatted)/8992956b-cea7-4b73-8f30-d40f49893f9a.md>)
-  * [Logger (with message)](<debug/logger (with message)/fafa45e5-b1dd-4348-bcd8-ac6fb25b3d07.md>)
   * [Output formatter](<debug/output formatter/fcf45309-c43e-42ee-8335-1957ca9f427e.md>)
   * [Unsuccessfull http response logger](<debug/unsuccessfull http response logger/c86838c8-2f72-4b82-8fdf-2e12db9c8b04.md>)
 * examples
-  * api testing
-    * junit reporter
-      * [Authenticator](<examples/api testing/junit reporter/authenticator/246824cf-2645-43fb-8c47-485addbdaed5.md>)
-      * [ID field test](<examples/api testing/junit reporter/id field test/50fc536e-a390-47e6-9c07-5d2dae4088db.md>)
-      * [JUnit reporter example](<examples/api testing/junit reporter/junit reporter example/d85b87a6-8fd1-4fbe-9198-a8cd616171d9.md>)
-      * [Status 200 test](<examples/api testing/junit reporter/status 200 test/c1025934-416f-4329-bbf0-ae3f0a0df84c.md>)
-      * [User endpoint tests](<examples/api testing/junit reporter/user endpoint tests/d07d1d05-54bf-4d29-837c-5cb5214b89e3.md>)
-      * [User record fetcher](<examples/api testing/junit reporter/user record fetcher/fc2d49e4-9a41-41cd-84dd-da7d900f978f.md>)
-      * [Valid user ID tester](<examples/api testing/junit reporter/valid user id tester/7032d0d2-f24b-435b-b857-cb7e84a022a3.md>)
   * apis
     * firebase
       * rtdb
@@ -289,16 +229,11 @@
       * express
         * [Basic server](<examples/io/http/express/basic server/48be5ab2-492c-42f9-811c-83bffb48f4d9.md>)
   * projects
-    * FTSE-100 Index
-      * [Fetch](<examples/projects/ftse-100 index/fetch/9fae9d0a-13bd-4eae-a3fa-106181eb6d41.md>)
-    * Hello World - Cranq 101
-      * [Greeter](<examples/projects/hello world - cranq 101/greeter/9ded6f26-d2d0-49dd-a8da-3536fcbb74e4.md>)
     * JUnit reporter
       * [click me](<examples/projects/junit reporter/click me/c344812e-1572-41cc-b09e-2b129e67920f.md>)
 * flow
   * [Aggregator](<flow/aggregator/9f2feb24-d675-4c90-adf2-4fbf4a3cc117.md>)
   * [Aggregator (async)](<flow/aggregator (async)/bca9d1a1-0963-430c-b523-3fb52e2851cc.md>)
-  * [Buffering gate (async)](<flow/buffering gate (async)/e0ddd4f8-2c5a-43c0-85dc-450d13c1b297.md>)
   * [Debouncer](<flow/debouncer/7538a471-3171-448e-afe4-247b3a0d131a.md>)
   * [Delayer](<flow/delayer/9e917e4a-68d4-40f5-b47d-ba6de12047aa.md>)
   * [Demultiplexer](<flow/demultiplexer/090f60d2-f942-49dc-b0ff-d736f9872988.md>)
@@ -331,7 +266,6 @@
 * io
   * file
     * [Binary reader](<io/file/binary reader/0f3adae4-2f1b-4f8f-90ed-463b9fc92edb.md>)
-    * [Binary writer](<io/file/binary writer/a92a6e2b-166e-4b43-8dc4-3674d8ef5faf.md>)
     * [Deleter](<io/file/deleter/70bef097-0789-4a72-914c-401e017e6e2c.md>)
     * [Directory creator](<io/file/directory creator/13a8743b-5ac2-4e2c-bc67-89dd7ce273ea.md>)
     * [Directory lister](<io/file/directory lister/e89603b7-7f56-47d0-a3ef-b73ccfb90b79.md>)
@@ -345,7 +279,6 @@
     * [Info getter](<io/file/info getter/f80b0364-f5e3-4217-b46f-7aa4be66cac3.md>)
     * [JSON reader](<io/file/json reader/e017ff92-bf1a-4a2f-8520-bd706deb466c.md>)
     * [JSON reader (with param)](<io/file/json reader (with param)/7bb35809-11dd-4663-b37f-db43f4f335b2.md>)
-    * [JSON writer](<io/file/json writer/e232403f-a261-4865-9b28-9f6888979276.md>)
     * [Path builder](<io/file/path builder/a44a0840-89b7-42ef-9145-3c761159f07e.md>)
     * [Path creator](<io/file/path creator/3c5d8397-ffca-4e6a-894f-d85d03433e08.md>)
     * [Path deleter](<io/file/path deleter/e895f61e-9523-482d-ba27-9035e8b29711.md>)
@@ -415,12 +348,9 @@
   * stdio
     * [Line writer](<io/stdio/line writer/0adf0dbf-66e3-4942-8766-b30731f4fcdd.md>)
     * [Line writer (conditional)](<io/stdio/line writer (conditional)/0fbfd6b9-5295-44b4-805a-d85bb0640e23.md>)
-    * [Line writer (with param)](<io/stdio/line writer (with param)/0cffaed3-aa41-4adc-a4f1-32f0c7313660.md>)
     * [Text writer](<io/stdio/text writer/46a8b971-7a01-485f-9c22-5c31cb6ca213.md>)
-    * [Text writer (with param)](<io/stdio/text writer (with param)/29221ee0-26c6-4463-b9f3-3fce59a0d246.md>)
 * json
   * [Parser](<json/parser/810387ec-2121-49e7-a4ba-56f8fc782e65.md>)
-  * [Serializer](<json/serializer/3820f096-6216-4049-b374-c98684387fea.md>)
 * low-code
   * io
     * http
@@ -459,15 +389,12 @@
 * scripting
   * [Action finished tester](<scripting/action finished tester/a7258813-8254-4545-aedc-3c271a160345.md>)
   * [Action maintainer](<scripting/action maintainer/df2ee367-133e-49a5-afc3-277a41ddd699.md>)
-  * [Action result logger](<scripting/action result logger/09f49d0f-cc9e-4f17-adee-e9256cb13f41.md>)
-  * [Action template](<scripting/action template/16a99002-acaf-47f7-80ef-3f3d979c87ea.md>)
   * actions
     * [Command runner](<scripting/actions/command runner/21f66d02-229e-4e49-9781-1df6d95f5c06.md>)
     * [Directory lister](<scripting/actions/directory lister/b014ba06-3287-4933-ac87-2097add5983f.md>)
     * [Dotenv appender](<scripting/actions/dotenv appender/fb69ffe9-5900-42e3-b4bb-3741e6671fd0.md>)
     * [Express endpoint creator (simplified)](<scripting/actions/express endpoint creator (simplified)/e4904aa6-0c52-41db-b26c-80aa5de4b789.md>)
     * [Express route creator](<scripting/actions/express route creator/55fae13b-9dd2-42c0-a119-7b69b7388c92.md>)
-    * [Express server starter](<scripting/actions/express server starter/2bb63b5a-5cfb-4dc4-bba1-0b5a597a92ff.md>)
     * [Express server starter (simplified)](<scripting/actions/express server starter (simplified)/0d2ca38e-46a7-43b1-9e74-65bdde256344.md>)
     * [File appender](<scripting/actions/file appender/587f8781-9f5d-4dfc-ad7e-99c0fb5fb5a5.md>)
     * [File creator](<scripting/actions/file creator/15631c05-0c74-441c-8890-871b87e93b4e.md>)
@@ -476,11 +403,8 @@
     * [One-time action template](<scripting/actions/one-time action template/de42552c-ce11-4516-a086-523b0143bb52.md>)
     * [Paths joiner](<scripting/actions/paths joiner/275ac9ef-4997-4a9f-b1aa-4d414d0ef9e5.md>)
     * [Wait](<scripting/actions/wait/97c6708c-143f-4deb-869a-1a1255815a30.md>)
-  * [Config reader](<scripting/config reader/f8d0dc26-b6cb-475d-87ee-feaca6eadec0.md>)
-  * [Config reader (with param)](<scripting/config reader (with param)/aeb816a4-be64-41b1-a018-c646b6410b12.md>)
   * [One-time action result maintainer](<scripting/one-time action result maintainer/ed1626b0-9a1a-4a77-a702-57575430beb7.md>)
   * [Params copier](<scripting/params copier/359e8070-aed1-459b-a6d8-722f1d27378b.md>)
-  * [Params copier (simplified)](<scripting/params copier (simplified)/aec118d9-5ffc-4003-9e15-45b69e49a833.md>)
   * [Starter](<scripting/starter/f358fba0-6806-4739-912a-3e37deff6d10.md>)
   * [State reader](<scripting/state reader/916f1365-3ef6-4c0f-8d11-93c71b4f3a16.md>)
   * [State writer](<scripting/state writer/7fe3c64f-6642-4ed4-9757-a6006b30aac8.md>)
@@ -523,7 +447,6 @@
   * [Lowercaser](<string/lowercaser/b2047f76-03e8-4d10-9ba1-f96176004aa4.md>)
   * [Regex matcher](<string/regex matcher/c9b76fa0-7428-4b19-8b09-63bf023088c9.md>)
   * [Regex tester](<string/regex tester/98f4e330-2578-4a0f-89c2-e90e8fff7ec4.md>)
-  * [Slugifier](<string/slugifier/0c04f914-44ed-4a06-a980-03bbdc44af04.md>)
   * [Splitter](<string/splitter/e1418571-da49-467a-aefe-0a97394344e9.md>)
   * [Template filler](<string/template filler/d57766a1-8ced-4ed9-ba56-f6b3988d7d67.md>)
   * [Trimmer](<string/trimmer/64e6e4b1-d50f-47b6-b1d2-6e707f8d73bc.md>)
@@ -541,60 +464,23 @@
   * utils
     * [Command success tester](<system/utils/command success tester/d8ecb7f7-8042-461a-a2ae-80e1e0f73686.md>)
 * testing
-  * [Array contains asserter](<testing/array contains asserter/660a65d2-1981-40ec-ac75-e4df283b4d9e.md>)
   * [Assertion builder](<testing/assertion builder/96f3e9b5-3694-4d0d-b420-e5c7500fd848.md>)
   * [Assertion duration getter](<testing/assertion duration getter/753bda00-eb10-40ac-9c51-1a3b056fa165.md>)
   * [Case decorator](<testing/case decorator/9a6363c5-0e09-4ad0-ba0a-6dfcda84ccdf.md>)
-  * [Case template](<testing/case template/88b41ea7-9236-411d-b26f-1f3bd6d73f7a.md>)
   * [Current timestamp inserter](<testing/current timestamp inserter/6b4ac3b2-c532-460d-8a43-f94f637270c1.md>)
   * [Description inserter](<testing/description inserter/42bc5527-2b3d-487c-a903-36fcbb99eb54.md>)
-  * [Dictionary structure asserter](<testing/dictionary structure asserter/9773f33c-d803-45fe-a6c5-ed3b1b8b706a.md>)
   * [Duration inserter](<testing/duration inserter/ae2e1b50-83e8-4c73-b0d1-ec6b101c4a0b.md>)
-  * [Equality asserter](<testing/equality asserter/e4e7fe9d-5caf-46c1-a765-aa4c70c1e5c2.md>)
-  * [Even asserter](<testing/even asserter/736cb369-b491-4d25-9968-94992300cafa.md>)
-  * [Greater or equal asserter](<testing/greater or equal asserter/17c5d268-ecc7-45fc-abdd-ead642a07400.md>)
-  * [Greater than asserter](<testing/greater than asserter/2aaf47cc-5ef5-4d16-9c55-5bbf60d45c98.md>)
-  * [Has key asserter](<testing/has key asserter/6878f7af-e006-489b-898e-687da4b59195.md>)
-  * [Has keys asserter](<testing/has keys asserter/5359739d-5f7c-40b4-adcd-bd1bd0cc4e28.md>)
-  * [Has path asserter](<testing/has path asserter/d109b675-29fa-4bd3-9234-c2cd185385bf.md>)
-  * [Is array asserter](<testing/is array asserter/e76ff3cc-4f74-46fe-83d4-789c9b220816.md>)
-  * [Is boolean asserter](<testing/is boolean asserter/43b0ea8e-eb40-4183-9357-9ded5c2fecf1.md>)
-  * [Is dictionary asserter](<testing/is dictionary asserter/8e00245f-c82c-4f2f-9b32-8fcaf135aa31.md>)
-  * [Is number asserter](<testing/is number asserter/a728e999-583f-461c-a1dd-0677eaf0f008.md>)
-  * [Is string asserter](<testing/is string asserter/e25695a6-d7f7-42af-930b-05d39226f1a6.md>)
-  * [Less or equal asserter](<testing/less or equal asserter/89ec000e-ac9c-48fb-bbae-f2f3487fd4c9.md>)
-  * [Less than asserter](<testing/less than asserter/5461d439-0a6a-48da-a1e7-93f58da53bf5.md>)
-  * [Odd asserter](<testing/odd asserter/b70d5816-10d3-4a85-a78b-f53c2abee331.md>)
   * reporters
-    * [Assertion ID generator](<testing/reporters/assertion id generator/55ea42ae-358b-47bb-a833-6b768367edc2.md>)
     * junit
       * [Assertion description splitter](<testing/reporters/junit/assertion description splitter/c38ceb39-41b5-456a-972b-3e259ab72422.md>)
       * [Assertion inserter](<testing/reporters/junit/assertion inserter/08ea2df1-bef0-40d8-9e40-f71631d71eb9.md>)
       * [Assertion recorder](<testing/reporters/junit/assertion recorder/e159c78c-129e-49fb-b2fc-e81049731eca.md>)
-      * [Assertions consolidator](<testing/reporters/junit/assertions consolidator/59b08b24-2cf0-4081-a690-a2de2fdf64d9.md>)
-      * [Case time consolidator](<testing/reporters/junit/case time consolidator/e1548a0e-37db-4de8-8e9f-f19d2de27d9f.md>)
-      * [Case time inserter](<testing/reporters/junit/case time inserter/925f8f8c-de82-496b-8ee3-9fbbc73f6999.md>)
-      * [Failure inserter](<testing/reporters/junit/failure inserter/fcb84b64-ca4f-4969-a3ab-589da4ade949.md>)
-        * [conditional](<testing/reporters/junit/failure inserter/conditional/b4a8455b-cead-4b01-8ca5-540233e892b2.md>)
-      * [Failure message builder](<testing/reporters/junit/failure message builder/dc3128fc-7bc5-4e14-83b8-c72bb13d0f5a.md>)
-      * [Failures consolidator](<testing/reporters/junit/failures consolidator/3cd6e4a8-bfe2-4f52-8b1b-8ea163cb4344.md>)
       * [HTML report generator (from file)](<testing/reporters/junit/html report generator (from file)/5383d115-d6c1-4178-8e61-582c32a5be39.md>)
       * [HTML report generator (from xml)](<testing/reporters/junit/html report generator (from xml)/c636bbe0-b2bc-4238-9fe4-67ddb035ea2d.md>)
-      * [Report consolidator](<testing/reporters/junit/report consolidator/8f77cd30-fcd5-4cc9-8a6f-35d260a154c6.md>)
       * [Report context builder](<testing/reporters/junit/report context builder/4dd77365-a18d-45ef-8ecb-8639151bc64b.md>)
-      * [Report preprocessor](<testing/reporters/junit/report preprocessor/7c576be4-4651-4316-99ab-92b0d312e2a9.md>)
       * [Reporter](<testing/reporters/junit/reporter/4052cde9-be53-4b55-9f17-d49bb5a870b7.md>)
       * [Serializer](<testing/reporters/junit/serializer/c1891dcf-8698-4a54-a0e0-d849bcc77b10.md>)
-      * [Suite time consolidator](<testing/reporters/junit/suite time consolidator/435e42b9-4429-4d0e-961e-9363e3ff0b82.md>)
-      * [Suite time inserter](<testing/reporters/junit/suite time inserter/06d5b9f5-91a2-4187-952a-5cb7ed73af51.md>)
-      * [Suites consolidator](<testing/reporters/junit/suites consolidator/0217995c-800b-4290-8226-8624b4fc2a93.md>)
-      * [Test case name inserter](<testing/reporters/junit/test case name inserter/840b6e9e-bd69-4e7e-a119-a25ff7756492.md>)
-      * [Test cases consolidator](<testing/reporters/junit/test cases consolidator/00d419dd-7008-4150-9dd1-a3385872efd5.md>)
-      * [Test suite name inserter](<testing/reporters/junit/test suite name inserter/16bbd780-0d33-417e-8e96-3da9038b285e.md>)
-      * [Time node to seconds](<testing/reporters/junit/time node to seconds/86090760-52c2-4bc8-bfe6-dc5aefa4027f.md>)
       * [Visualizer](<testing/reporters/junit/visualizer/61d720e6-f252-4438-8309-6c13136326d0.md>)
-  * [Same array length asserter](<testing/same array length asserter/054ecfe9-b517-42c2-9150-953d06d1af68.md>)
-  * [String contains asserter](<testing/string contains asserter/80e0fbc1-518c-4291-96ea-3f68221a716f.md>)
 * time
   * [Timestamp getter](<time/timestamp getter/52636841-e2b9-4b13-ad5b-06eb8d1eb701.md>)
 * tutorials
