@@ -4,11 +4,11 @@ _[system/Command runner]_
 
 ---
 
-Runs the received command string with the received options.  
-  
-Sends stdout, stderr and optionally error message when the process finished.  
-  
-Bounces command and options when the node is already in the state of executing a command.  
+Runs the received command string with the received options.<br>
+<br>
+Sends stdout, stderr and optionally error message when the process finished.<br>
+<br>
+Bounces command and options when the node is already in the state of executing a command.<br>
 
 ---
 
@@ -30,7 +30,7 @@ Bounces command and options when the node is already in the state of executing a
 * __error__: ` (string or null) `
 
 
-    Null on success.  
+    Null on success.<br>
 
 
 * __on busy__: 
@@ -39,7 +39,7 @@ Bounces command and options when the node is already in the state of executing a
     ```
 
 
-    The received command and options when the node is still executing another command.  
+    The received command and options when the node is still executing another command.<br>
 
 
 * __bounced__: ` any `

@@ -4,7 +4,7 @@ _[io/file/Binary reader]_
 
 ---
 
-Reads binary files Base64 encoded.  
+Reads binary files Base64 encoded.<br>
 
 ---
 

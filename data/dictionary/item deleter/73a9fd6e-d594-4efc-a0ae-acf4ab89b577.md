@@ -4,21 +4,21 @@ _[data/dictionary/Item deleter]_
 
 ---
 
-Deletes an item from a dictionary by its key.   
-If the item is not found, the original dictionary is forwarded.  
-  
-Example A:  
-1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`  
-2. "first"@0 received via `key`  
-3. `dict` sends { "third": 3, "fifth": 5 }@0  
-  
-Example B:  
-1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`  
-2. "second"@0 received via `key`  
-3. `dict` sends{ "first": 1, "third": 3, "fifth": 5 }@0  
-  
-More:  
-https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters  
+Deletes an item from a dictionary by its key. <br>
+If the item is not found, the original dictionary is forwarded.<br>
+<br>
+Example A:<br>
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`<br>
+2. "first"@0 received via `key`<br>
+3. `dict` sends { "third": 3, "fifth": 5 }@0<br>
+<br>
+Example B:<br>
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`<br>
+2. "second"@0 received via `key`<br>
+3. `dict` sends{ "first": 1, "third": 3, "fifth": 5 }@0<br>
+<br>
+More:<br>
+https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters<br>
 
 ---
 
@@ -29,27 +29,27 @@ __Keywords__: dictionary, dict, delete, remove, key
 * __dict__: ` {string: any} `
 
 
-    Receives the dictionary to delete the item from.  
-      
-    Example:  
-    { "first": 1, "third": 3, "fifth": 5 }  
+    Receives the dictionary to delete the item from.<br>
+    <br>
+    Example:<br>
+    { "first": 1, "third": 3, "fifth": 5 }<br>
 
 
 * __key__: ` string `
 
 
-    Receives the key corresponding to the value to delete.  
-      
-    Example:  
-    "third"  
+    Receives the key corresponding to the value to delete.<br>
+    <br>
+    Example:<br>
+    "third"<br>
 
 ### Output ports
 
 * __dict__: ` {string: any} `
 
 
-    Sends the resulting dictionary.  
-      
-    Example:  
-    { "first": 1, "fifth": 5 }  
+    Sends the resulting dictionary.<br>
+    <br>
+    Example:<br>
+    { "first": 1, "fifth": 5 }<br>
 

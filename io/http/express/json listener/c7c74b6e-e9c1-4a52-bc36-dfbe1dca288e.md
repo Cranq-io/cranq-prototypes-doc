@@ -4,7 +4,7 @@ _[io/http/express/JSON listener]_
 
 ---
 
-Starts an express server set up for handling requests and also responding with JSON bodies.  
+Starts an express server set up for handling requests and also responding with JSON bodies.<br>
 
 ---
 
@@ -15,19 +15,19 @@ __Keywords__: express, server, start, json
 * __app ID__: ` string `
 
 
-    The id of the express instance.  
-      
-    Example:   
-    "my-express-server"  
+    The id of the express instance.<br>
+    <br>
+    Example: <br>
+    "my-express-server"<br>
 
 
 * __port__: ` number `
 
 
-    The port number express should listen to.  
-      
-    Example:   
-    3000  
+    The port number express should listen to.<br>
+    <br>
+    Example: <br>
+    3000<br>
 
 ### Output ports
 
@@ -37,5 +37,5 @@ __Keywords__: express, server, start, json
 * __error__: ` {"error" :string} `
 
 
-    Sends error information in case the server could not be started or a middleware could not be applied.  
+    Sends error information in case the server could not be started or a middleware could not be applied.<br>
 

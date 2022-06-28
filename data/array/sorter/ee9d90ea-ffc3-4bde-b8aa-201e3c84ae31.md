@@ -4,7 +4,7 @@ _[data/array/Sorter]_
 
 ---
 
-Sorts an array according to the specified reference array (`params`["order"]).  
+Sorts an array according to the specified reference array (`params`["order"]).<br>
 
 ---
 

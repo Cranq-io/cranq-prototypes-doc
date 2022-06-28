@@ -4,7 +4,7 @@ _[blockchain/ethereum/actions/Deploy script creator]_
 
 ---
 
-Creates the deploy script to deploy the contract using Hardhat.  
+Creates the deploy script to deploy the contract using Hardhat.<br>
 
 ---
 
@@ -16,24 +16,24 @@ Creates the deploy script to deploy the contract using Hardhat.
     ```
 
 
-    {  
-      "cwd": string, // the working directory  
-      "path": string, // the path to write the deploy script to  
-      "contract-name": string, // the name of the contract to deploy  
-      "result-path": string, // the path in the state to write the result to  
-      "message": string // the message to print on the console  
-    }  
+    {<br>
+      "cwd": string, // the working directory<br>
+      "path": string, // the path to write the deploy script to<br>
+      "contract-name": string, // the name of the contract to deploy<br>
+      "result-path": string, // the path in the state to write the result to<br>
+      "message": string // the message to print on the console<br>
+    }<br>
 
 
 * __state__: ` any `
 
 
-    Receives script state.  
+    Receives script state.<br>
 
 ### Output ports
 
 * __state__: ` any `
 
 
-    Sends updated script state.  
+    Sends updated script state.<br>
 
