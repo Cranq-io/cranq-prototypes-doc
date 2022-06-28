@@ -23,18 +23,18 @@ __Keywords__: series, modulo, detect, test
 
 * __data__: ` any `
 
-    Receives the burst signals.
+    Receives the burst signals.  
 
 
 * __length__: ` number `
 
-    Burst length to be detected.
-    
-    Can be parameter.
+    Burst length to be detected.  
+      
+    Can be parameter.  
 
 ### Output ports
 
 * __is last__: ` boolean `
 
-    Sends true on the last signal in the burst, false otherwise.
+    Sends true on the last signal in the burst, false otherwise.  
 

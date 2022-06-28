@@ -19,16 +19,16 @@ __Keywords__: construct, create, key-value pairs
 
 * __values__: ` string[] `
 
-    Receives an array of query parameter values associated with the same key.
+    Receives an array of query parameter values associated with the same key.  
 
 
 * __key__: ` string `
 
-    Receives the key part of a key-value pair.
+    Receives the key part of a key-value pair.  
 
 ### Output ports
 
 * __params__: ` {"key" :string, "value" :string}[] `
 
-    Sends an array of single query params as key-value pairs.
+    Sends an array of single query params as key-value pairs.  
 

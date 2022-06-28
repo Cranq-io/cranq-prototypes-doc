@@ -28,25 +28,25 @@ __Keywords__: dictionary, dict, delete, remove, key
 
 * __dict__: ` {string: any} `
 
-    Receives the dictionary to delete the item from.
-    
-    Example:
-    { "first": 1, "third": 3, "fifth": 5 }
+    Receives the dictionary to delete the item from.  
+      
+    Example:  
+    { "first": 1, "third": 3, "fifth": 5 }  
 
 
 * __key__: ` string `
 
-    Receives the key corresponding to the value to delete.
-    
-    Example:
-    "third"
+    Receives the key corresponding to the value to delete.  
+      
+    Example:  
+    "third"  
 
 ### Output ports
 
 * __dict__: ` {string: any} `
 
-    Sends the resulting dictionary.
-    
-    Example:
-    { "first": 1, "fifth": 5 }
+    Sends the resulting dictionary.  
+      
+    Example:  
+    { "first": 1, "fifth": 5 }  
 
