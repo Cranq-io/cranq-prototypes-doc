@@ -20,7 +20,6 @@ __Keywords__: google, drive, authentication, sdk, file
 
 * __session Id__: ` string `
 
-
     Receives the session id of the drive action.<br>
     <br>
     Example: <br>
@@ -29,7 +28,6 @@ __Keywords__: google, drive, authentication, sdk, file
 
 * __email__: ` string `
 
-
     Receives the email address of the service account.<br>
     <br>
     Example: <br>
@@ -37,7 +35,6 @@ __Keywords__: google, drive, authentication, sdk, file
 
 
 * __key__: ` string `
-
 
     Receives the private key of the service account.<br>
     <br>
@@ -48,7 +45,6 @@ __Keywords__: google, drive, authentication, sdk, file
 
 * __done__: ` null `
 
-
     Sends null if the action was successful.<br>
     <br>
     Example:<br>
@@ -56,7 +52,6 @@ __Keywords__: google, drive, authentication, sdk, file
 
 
 * __error__: ` {"error" :string} `
-
 
     Sends the error which happened during the execution of the action.<br>
     <br>

@@ -23,12 +23,10 @@ __Keywords__: series, modulo, detect, test
 
 * __data__: ` any `
 
-
     Receives the burst signals.<br>
 
 
 * __length__: ` number `
-
 
     Burst length to be detected.<br>
     <br>
@@ -37,7 +35,6 @@ __Keywords__: series, modulo, detect, test
 ### Output ports
 
 * __is last__: ` boolean `
-
 
     Sends true on the last signal in the burst, false otherwise.<br>
 

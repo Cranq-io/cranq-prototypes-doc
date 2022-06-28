@@ -29,7 +29,6 @@ Bounces command and options when the node is already in the state of executing a
 
 * __error__: ` (string or null) `
 
-
     Null on success.<br>
 
 
@@ -37,7 +36,6 @@ Bounces command and options when the node is already in the state of executing a
     ```
     {"command" :string, "options" :{"cwd" :string, "env" :{string: string}}}
     ```
-
 
     The received command and options when the node is still executing another command.<br>
 

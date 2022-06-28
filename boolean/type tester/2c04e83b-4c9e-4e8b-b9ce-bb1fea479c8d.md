@@ -19,13 +19,11 @@ __Keywords__: boolean, logical
 
 * __data__: ` any `
 
-
     Input value to be checked<br>
 
 ### Output ports
 
 * __is boolean__: ` boolean `
-
 
     Sends true if the input is a boolean, false otherwise.<br>
 

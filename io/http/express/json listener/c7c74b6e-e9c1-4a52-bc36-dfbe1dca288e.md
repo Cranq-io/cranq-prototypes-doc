@@ -14,7 +14,6 @@ __Keywords__: express, server, start, json
 
 * __app ID__: ` string `
 
-
     The id of the express instance.<br>
     <br>
     Example: <br>
@@ -22,7 +21,6 @@ __Keywords__: express, server, start, json
 
 
 * __port__: ` number `
-
 
     The port number express should listen to.<br>
     <br>
@@ -35,7 +33,6 @@ __Keywords__: express, server, start, json
 
 
 * __error__: ` {"error" :string} `
-
 
     Sends error information in case the server could not be started or a middleware could not be applied.<br>
 
