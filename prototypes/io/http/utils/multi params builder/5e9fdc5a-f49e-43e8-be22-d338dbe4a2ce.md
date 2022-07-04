@@ -28,7 +28,7 @@ __Keywords__: construct, create, key-value pairs
 
 ### Output ports
 
-* __params__: ` {"key" :string, "value" :string}[] `
+* __params__: ` {"key": string, "value": string}[] `
 
     Sends an array of single query params as key-value pairs.<br>
 

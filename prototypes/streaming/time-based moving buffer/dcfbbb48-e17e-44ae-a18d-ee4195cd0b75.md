@@ -27,7 +27,7 @@ __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
 ### Input ports
 
-* __sample__: ` {"value" :any, "timestamp" :number} `
+* __sample__: ` {"value": any, "timestamp": number} `
 
     Receives individual samples to be buffered.<br>
 
@@ -38,18 +38,18 @@ __Keywords__: buffer, overflow, stream, rotate, window, seconds
 
 ### Output ports
 
-* __buffer__: ` {"value" :any, "timestamp" :number}["value"][] `
+* __buffer__: ` {"value": any, "timestamp": number}["value"][] `
 
     Sends current contents of moving buffer.<br>
 
 
-* __error__: ` {"message" :string} `
+* __error__: ` {"message": string} `
 
     Sends error when:<br>
     * size is equal or less than 0 or not set<br>
 
 
-* __bounced__: ` {"value" :any, "timestamp" :number} `
+* __bounced__: ` {"value": any, "timestamp": number} `
 
     Forwards input received via `sample` on error.<br>
 

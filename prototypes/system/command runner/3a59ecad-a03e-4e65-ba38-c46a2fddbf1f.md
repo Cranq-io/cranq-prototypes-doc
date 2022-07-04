@@ -17,7 +17,7 @@ Bounces command and options when the node is already in the state of executing a
 * __command__: ` string `
 
 
-* __options__: ` {"cwd" :string, "env" :{string: string}} `
+* __options__: ` {"cwd": string, "env": {string: string}} `
 
 ### Output ports
 
@@ -34,7 +34,7 @@ Bounces command and options when the node is already in the state of executing a
 
 * __on busy__: 
     ```
-    {"command" :string, "options" :{"cwd" :string, "env" :{string: string}}}
+    {"command": string, "options": {"cwd": string, "env": {string: string}}}
     ```
 
     The received command and options when the node is still executing another command.<br>

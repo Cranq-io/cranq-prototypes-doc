@@ -51,7 +51,7 @@ __Keywords__: google, drive, authentication, sdk, file
     null<br>
 
 
-* __error__: ` {"error" :string} `
+* __error__: ` {"error": string} `
 
     Sends the error which happened during the execution of the action.<br>
     <br>

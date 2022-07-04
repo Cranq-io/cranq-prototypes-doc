@@ -12,7 +12,13 @@ Creates the deploy script to deploy the contract using Hardhat.<br>
 
 * __params__: 
     ```
-    {"cwd" :string, "path" :string, "contract-name" :string, "result-path" :string, "message" :string}
+    {
+        "cwd": string,
+        "path": string,
+        "contract-name": string,
+        "result-path": string,
+        "message": string
+    }
     ```
 
     {<br>
