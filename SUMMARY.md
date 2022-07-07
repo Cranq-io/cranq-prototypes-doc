@@ -567,9 +567,7 @@
       * [Setter (array) example](<prototypes/tutorials/data/setter (array) example/90d8f05b-c09a-434a-aaa1-23226f146354.md>)
       * [Setter (dictionary) example](<prototypes/tutorials/data/setter (dictionary) example/1b14898c-3ed5-4bdd-8349-94bfaf3e5511.md>)
       * [Splitter (split dicionary) example](<prototypes/tutorials/data/splitter (split dicionary) example/fbf57ae7-6a2b-42f9-9b1a-128a19e39828.md>)
-      * [Syncer (build depts array) example](<prototypes/tutorials/data/syncer (build depts array) example/19e94fcf-e899-4231-bbc4-d80c10e0a001.md>)
       * [Syncer (build dictionary) example](<prototypes/tutorials/data/syncer (build dictionary) example/cbfb2b1a-a0e6-43fe-9165-ab1f6cb44756.md>)
-      * [Syncer (build emps array) example](<prototypes/tutorials/data/syncer (build emps array) example/da897a3d-d49a-470b-a7b4-606697a885e1.md>)
       * [Template filler example](<prototypes/tutorials/data/template filler example/22e1587a-ff40-4dcb-b932-c374d4463b4b.md>)
     * flow
       * [Fork example](<prototypes/tutorials/flow/fork example/7aab3d06-3ccc-4c48-a964-05aeb8a79366.md>)
