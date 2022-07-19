@@ -1,0 +1,54 @@
+# Item deleter
+
+_[data/dictionary/Item deleter]_
+
+![icon](</assets/icons/89f4fde2-5391-4f4c-b55a-55ada280f89c.png>)
+
+---
+
+Deletes an item from a dictionary by its key. <br>
+If the item is not found, the original dictionary is forwarded.<br>
+<br>
+Example A:<br>
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`<br>
+2. "first"@0 received via `key`<br>
+3. `dict` sends { "third": 3, "fifth": 5 }@0<br>
+<br>
+Example B:<br>
+1. { "first": 1, "third": 3, "fifth": 5 } @0 received via `dict`<br>
+2. "second"@0 received via `key`<br>
+3. `dict` sends{ "first": 1, "third": 3, "fifth": 5 }@0<br>
+<br>
+More:<br>
+https://github.com/Cranq-io/cranq-tutorials/tree/main/reference/2_constructing_data/2_1_setters_deleters<br>
+
+---
+
+__Keywords__: dictionary, dict, delete, remove, key
+
+### Input ports
+
+* __dict__: ` {string: any} `
+
+    Receives the dictionary to delete the item from.<br>
+    <br>
+    Example:<br>
+    { "first": 1, "third": 3, "fifth": 5 }<br>
+
+
+* __key__: ` string `
+
+    Receives the key corresponding to the value to delete.<br>
+    <br>
+    Example:<br>
+    "third"<br>
+
+### Output ports
+
+* __dict__: ` {string: any} `
+
+    Sends the resulting dictionary.<br>
+    <br>
+    Example:<br>
+    { "first": 1, "fifth": 5 }<br>
+
