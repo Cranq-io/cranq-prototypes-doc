@@ -20,10 +20,7 @@ __Keywords__: base64, utf8
 
 * __chunks__: 
     ```
-    {
-      "encoding": "utf8" or "base64",
-      "data": string
-    }[]
+    {"encoding": ("utf8" or "base64"), "data": string}[]
     ```
 
     Receives the chunks to be joined.<br>

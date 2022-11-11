@@ -1,28 +1,28 @@
 # Summary
 
 * prototypes
-  * api
-    * firebase
-      * auth
-        * rest
-          * [Email signup](<prototypes/api/firebase/auth/rest/email signup/771c197e-319b-4ad3-b26d-1393f6520ca1.md>)
   * apis
     * airtable
       * [Bulk records inserter](<prototypes/apis/airtable/bulk records inserter/27c5ce61-a748-4a04-a58c-2b08bce72d22.md>)
+      * [Bulk records updater](<prototypes/apis/airtable/bulk records updater/03098712-065d-4d05-ab51-419e83679299.md>)
       * [Record deleter](<prototypes/apis/airtable/record deleter/41040913-3c6a-4c0a-9414-34eaec87dbf5.md>)
       * [Record fetcher](<prototypes/apis/airtable/record fetcher/ac7c9346-2754-45c0-bda3-b406afb038f4.md>)
       * [Record inserter](<prototypes/apis/airtable/record inserter/909b0a7b-d472-4247-bea4-21d76dd85511.md>)
+      * [Record updater](<prototypes/apis/airtable/record updater/f7fe9e5d-7948-41de-8609-69df7ef3fff1.md>)
       * [Records deleter](<prototypes/apis/airtable/records deleter/5ef6f292-5a1f-44f0-8ddc-664a431082a3.md>)
+      * [Records fetcher](<prototypes/apis/airtable/records fetcher/549d421f-d9cb-4ee0-976d-4512aae4caa3.md>)
       * [Records inserter](<prototypes/apis/airtable/records inserter/14885101-0962-4b6a-aa60-e9b258b0d953.md>)
       * [Records inserter (deprecated)](<prototypes/apis/airtable/records inserter (deprecated)/6a18cad3-092e-416b-85a0-dccb70bac9a6.md>)
+      * [Records updater](<prototypes/apis/airtable/records updater/99138b64-1a35-4634-b2d7-12c403fc8529.md>)
       * utils
         * [First record extractor](<prototypes/apis/airtable/utils/first record extractor/fa139654-80b1-45c4-b8c6-bb08ca09183c.md>)
-        * [Record insert request builder](<prototypes/apis/airtable/utils/record insert request builder/1a822a8a-c517-451b-b8f9-f6e6477e4dea.md>)
         * [Record to AirTable record converter](<prototypes/apis/airtable/utils/record to airtable record converter/e419e106-2619-4778-a199-51a92a9f1eac.md>)
         * [Record URL builder](<prototypes/apis/airtable/utils/record url builder/5afa860f-b8dc-46f0-aa46-1867c04c980d.md>)
         * [Records extractor](<prototypes/apis/airtable/utils/records extractor/c78453a1-9ea5-42b7-8680-1f45629ca7d9.md>)
         * [Records to AirTable records converter](<prototypes/apis/airtable/utils/records to airtable records converter/56fadfc7-8213-4a6e-9ec8-de2c32c0abf0.md>)
         * [Table URL builder](<prototypes/apis/airtable/utils/table url builder/33620048-04d4-4314-a0aa-a00d73cb9029.md>)
+    * AirTable
+      * [Records deleter](<prototypes/apis/airtable/records deleter/e16d11b7-d14c-4d50-b5b5-5d38bff73f47.md>)
     * dji
       * utils
         * [FPV Goggles OSD parser](<prototypes/apis/dji/utils/fpv goggles osd parser/6fa598f4-0586-4e22-822c-e26c618df1e9.md>)
@@ -34,6 +34,7 @@
         * rest
           * [Anonymous login](<prototypes/apis/firebase/auth/rest/anonymous login/43caa267-491d-4022-be49-1bc82f6811e6.md>)
           * [Email login](<prototypes/apis/firebase/auth/rest/email login/e9ea8a86-909f-4f11-a979-7de9907ec265.md>)
+          * [Email signup](<prototypes/apis/firebase/auth/rest/email signup/771c197e-319b-4ad3-b26d-1393f6520ca1.md>)
           * [Request dispatcher](<prototypes/apis/firebase/auth/rest/request dispatcher/75d5381b-c018-4593-840b-be87a483234b.md>)
       * rtdb
         * [Query context builder](<prototypes/apis/firebase/rtdb/query context builder/e45854b1-aa4f-4bc0-bad0-04d0657de11d.md>)
@@ -54,6 +55,10 @@
     * googlemaps
       * staticmaps
         * [Image fetcher](<prototypes/apis/googlemaps/staticmaps/image fetcher/13fbc876-2d4c-4dae-94a4-039070fa9771.md>)
+    * mailjet
+      * v3.1
+        * [Email sender](<prototypes/apis/mailjet/v3.1/email sender/71e3329c-4b5a-4127-89b9-28ce06f22bee.md>)
+        * [Simple email sender request builder](<prototypes/apis/mailjet/v3.1/simple email sender request builder/5d236262-2f39-4b97-8ae4-59772de68841.md>)
     * nftport
       * utils
         * [File URL extractor](<prototypes/apis/nftport/utils/file url extractor/0af4244d-79fa-484f-8de6-e1a889020183.md>)
@@ -76,6 +81,7 @@
         * [File uploader](<prototypes/apis/nftport/v0/file uploader/bc7bbefe-8cb5-4299-96b2-1c75fc221b12.md>)
         * [IPFS uploads lister](<prototypes/apis/nftport/v0/ipfs uploads lister/1cb01b1f-4944-4ad3-b923-b7a6f9ca35e7.md>)
         * [Metadata uploader](<prototypes/apis/nftport/v0/metadata uploader/68a3dd29-e715-40f6-866d-8ac5ea268927.md>)
+        * [Minted NFT burner](<prototypes/apis/nftport/v0/minted nft burner/036a7085-195c-487f-b5ad-309914328773.md>)
         * [Minted NFT details retriever](<prototypes/apis/nftport/v0/minted nft details retriever/715bac75-8283-4d92-854c-ec51052022d6.md>)
         * [Minted NFT lister](<prototypes/apis/nftport/v0/minted nft lister/dc638ec0-45e0-432f-b42f-9b59fab54651.md>)
         * [Minted NFT updater](<prototypes/apis/nftport/v0/minted nft updater/0c84f42b-3543-454a-9d3c-aed6a42cc879.md>)
@@ -94,6 +100,16 @@
         * [Similar NFTs finder with file](<prototypes/apis/nftport/v0/similar nfts finder with file/82808e2d-f463-4b21-8e1d-087cccb15688.md>)
         * [Similar NFTs finder with url](<prototypes/apis/nftport/v0/similar nfts finder with url/0d7df3fa-f6c2-45fa-926a-1eef792b2965.md>)
         * [User settings retriever](<prototypes/apis/nftport/v0/user settings retriever/ef4a9c55-5ba9-4c35-b279-a1aedf58e082.md>)
+    * poloniex
+      * public
+        * [24h volume sampler](<prototypes/apis/poloniex/public/24h volume sampler/a35ef896-bb32-489d-9c34-7e3bf0797f00.md>)
+        * [Chart data fetcher](<prototypes/apis/poloniex/public/chart data fetcher/545da653-7f37-4f66-aa7f-8d0354d10bec.md>)
+        * [Currencies fetcher](<prototypes/apis/poloniex/public/currencies fetcher/fb1aa444-4568-4066-96ac-eada8f4ec71d.md>)
+        * [Loan orders fetcher](<prototypes/apis/poloniex/public/loan orders fetcher/d2c0adaa-7d3e-477e-85f6-6456103be7bc.md>)
+        * [Order book fetcher](<prototypes/apis/poloniex/public/order book fetcher/db5ebde2-4d09-483d-b1c7-b1c9e8df3e3b.md>)
+        * [Response error detector](<prototypes/apis/poloniex/public/response error detector/b74cd6c7-0291-4c1b-bb70-e5fbb62fad85.md>)
+        * [Summary sampler](<prototypes/apis/poloniex/public/summary sampler/74ef14b3-5275-42c1-be88-35939c4ad102.md>)
+        * [Trade history fetcher](<prototypes/apis/poloniex/public/trade history fetcher/06154145-9efc-45ba-a5f8-74ecf4e21266.md>)
     * what3words
       * [Coordinates to words](<prototypes/apis/what3words/coordinates to words/b0858c64-019c-48d1-b343-84c829c9736e.md>)
       * [Words to coordinates](<prototypes/apis/what3words/words to coordinates/67b161a5-7851-4817-b1db-ba6c4669bbb3.md>)
@@ -115,17 +131,60 @@
       * [Colors setter](<prototypes/blinkstick/strip/colors setter/d41a8679-4ab6-4a30-8de9-b3dd1b14f135.md>)
   * blockchain
     * ethereum
-      * actions
-        * [Contract compiler & deployer](<prototypes/blockchain/ethereum/actions/contract compiler & deployer/0a8c6280-07d4-48cd-9cab-bbca94d858c6.md>)
-        * [Contract file creator](<prototypes/blockchain/ethereum/actions/contract file creator/fdcc8511-b32f-4080-b7c4-5349cad88f27.md>)
-        * [Contract verifier](<prototypes/blockchain/ethereum/actions/contract verifier/a57f8d8b-778e-42fd-a3bd-8f44a6825cdd.md>)
-        * [Contract verifier error handler](<prototypes/blockchain/ethereum/actions/contract verifier error handler/f79272bb-4dfb-4b19-be5b-8f2c1fa5e6f7.md>)
-        * [Deploy script creator](<prototypes/blockchain/ethereum/actions/deploy script creator/ceeb0e68-734f-4ff4-aaad-7302710fffae.md>)
-        * [Deploy script runner](<prototypes/blockchain/ethereum/actions/deploy script runner/5856cd72-1d61-41a9-afa6-7c48cac41215.md>)
-        * [Hardhat config file creator](<prototypes/blockchain/ethereum/actions/hardhat config file creator/d07b0f52-2ac7-462e-bf0e-1d80099d68b4.md>)
-        * [Minting finish listener (simplified)](<prototypes/blockchain/ethereum/actions/minting finish listener (simplified)/70275440-768b-40ee-b379-d9e5f9c78ed2.md>)
-        * [Smart contract deployer](<prototypes/blockchain/ethereum/actions/smart contract deployer/07af5abe-408d-4e83-8e38-79b79ecb26fc.md>)
-        * [Smart contract deployer (simplified)](<prototypes/blockchain/ethereum/actions/smart contract deployer (simplified)/6fdca8c6-8101-4e67-aa5d-6e6b55899652.md>)
+      * [Contract caller](<prototypes/blockchain/ethereum/contract caller/d0c40c17-a70f-46da-b735-5d6fb7a364d9.md>)
+      * [Contract deployer](<prototypes/blockchain/ethereum/contract deployer/cf8402d8-2801-4b12-9d91-c0edf557f2d9.md>)
+      * [Contract deployment logger](<prototypes/blockchain/ethereum/contract deployment logger/d2039634-678e-4316-812f-f1df972f8c8f.md>)
+      * [Contract deployment waiter](<prototypes/blockchain/ethereum/contract deployment waiter/1e99c75f-d21c-41de-a79c-7080ab8a2883.md>)
+      * [Contract executor](<prototypes/blockchain/ethereum/contract executor/228b10ab-9b15-4317-8700-f5ddac476c25.md>)
+      * contracts
+        * [Compile and deploy contract preset](<prototypes/blockchain/ethereum/contracts/compile and deploy contract preset/f4f89c90-1285-4803-b3c8-530254056164.md>)
+        * [Contract preset](<prototypes/blockchain/ethereum/contracts/contract preset/c791825d-ced0-4354-b066-d8488511dd4b.md>)
+        * erc1155
+          * [ERC1155 abi](<prototypes/blockchain/ethereum/contracts/erc1155/erc1155 abi/aa6191bb-c26c-49d0-a597-93bd97294506.md>)
+          * presets
+            * [ERC1155PresetMinterPauser](<prototypes/blockchain/ethereum/contracts/erc1155/presets/erc1155presetminterpauser/5edf0515-2d82-4cd8-ad5d-2da36a51ace3.md>)
+        * erc20
+          * presets
+            * [ERC20PresetFixedSupply deployer](<prototypes/blockchain/ethereum/contracts/erc20/presets/erc20presetfixedsupply deployer/6a8ac46e-756f-4028-bf83-e5fd7fdd8788.md>)
+          * [token decimals getter](<prototypes/blockchain/ethereum/contracts/erc20/token decimals getter/fdcb586e-b352-4aba-9dec-64a0135a3e52.md>)
+          * [Token transferer](<prototypes/blockchain/ethereum/contracts/erc20/token transferer/b20c5c97-32b4-4893-bd16-74b976c072db.md>)
+        * [ERC20](<prototypes/blockchain/ethereum/contracts/erc20/5ef2bbbc-fcfb-4573-8e12-e414dd5968c9.md>)
+          * [Approve](<prototypes/blockchain/ethereum/contracts/erc20/approve/55c96c0b-170d-4b6a-93a2-d56894a89afc.md>)
+        * erc721
+          * [ERC721 abi](<prototypes/blockchain/ethereum/contracts/erc721/erc721 abi/0746f330-4f64-49b5-9cb4-ed7572a3cefa.md>)
+          * presets
+            * [ERC721PresetMinterPauserAutoId](<prototypes/blockchain/ethereum/contracts/erc721/presets/erc721presetminterpauserautoid/e9af93a1-4171-4683-bbfa-f6379bcf011e.md>)
+      * [Contracts compiler](<prototypes/blockchain/ethereum/contracts compiler/8b0df39b-8337-4107-8211-565d56429b0f.md>)
+      * demo
+        * [Demo pool creator](<prototypes/blockchain/ethereum/demo/demo pool creator/9b8748db-7f0b-4304-b79a-d65a473f255f.md>)
+      * pancakeswap
+        * [Pancakeswap Factory ABI](<prototypes/blockchain/ethereum/pancakeswap/pancakeswap factory abi/dec01468-3e77-4936-b464-8c8a91b18e7b.md>)
+        * [Pancakeswap Factory Deployer](<prototypes/blockchain/ethereum/pancakeswap/pancakeswap factory deployer/caab2885-46e2-4cf1-a634-853748436ef3.md>)
+        * [Pancakeswap Pair ABI](<prototypes/blockchain/ethereum/pancakeswap/pancakeswap pair abi/9ef6e7a3-7f9e-48d1-b8f0-8d181deedf40.md>)
+        * [Pancakeswap Router ABI](<prototypes/blockchain/ethereum/pancakeswap/pancakeswap router abi/edecb654-3b80-4b63-bfa6-68a4f728a3b5.md>)
+        * [Pancakeswap Router Deployer](<prototypes/blockchain/ethereum/pancakeswap/pancakeswap router deployer/a9de8194-778e-4284-b46d-dd1686c574b3.md>)
+        * [WBNB Deployer](<prototypes/blockchain/ethereum/pancakeswap/wbnb deployer/0953af1d-ae69-47fe-aa66-085699649f88.md>)
+      * Uniswap
+        * v2
+          * [Core compiler](<prototypes/blockchain/ethereum/uniswap/v2/core compiler/e0f819d4-ec36-45a0-a772-252e08986fdd.md>)
+          * [Core source code](<prototypes/blockchain/ethereum/uniswap/v2/core source code/d68f7858-17ef-4a8b-8cde-008cf54de6af.md>)
+          * [Factory compiler](<prototypes/blockchain/ethereum/uniswap/v2/factory compiler/d595dd66-f2dc-4e96-b13c-d398b142a9bb.md>)
+          * [Factory deployer](<prototypes/blockchain/ethereum/uniswap/v2/factory deployer/b821b2e7-fa0d-4c28-a4f0-0b5953931815.md>)
+          * [Init code pair hash requester](<prototypes/blockchain/ethereum/uniswap/v2/init code pair hash requester/8ad9e182-95f3-4e99-94d9-c9489eead7c4.md>)
+          * [Liquidities adder](<prototypes/blockchain/ethereum/uniswap/v2/liquidities adder/5ed430d1-bb98-4b36-a351-969af7585e46.md>)
+          * [Liquidity adder](<prototypes/blockchain/ethereum/uniswap/v2/liquidity adder/5cc08991-9e11-460e-bbbd-82b4d4b685f4.md>)
+          * [Liquidity adder ETH](<prototypes/blockchain/ethereum/uniswap/v2/liquidity adder eth/b646dd6e-2ec9-4caa-a611-a0bd7906308b.md>)
+          * [Liquidity adder token](<prototypes/blockchain/ethereum/uniswap/v2/liquidity adder token/0979c75a-e817-4ed7-83a3-bb2570613cac.md>)
+          * [Periphery compiler](<prototypes/blockchain/ethereum/uniswap/v2/periphery compiler/67ab2ae2-50e3-4c99-bbf7-0f02291bc4b9.md>)
+          * [Periphery source code (instrumented)](<prototypes/blockchain/ethereum/uniswap/v2/periphery source code (instrumented)/f1ba6849-b8d1-44be-9bce-860cabb016f0.md>)
+          * Router
+            * [AddLiquidity](<prototypes/blockchain/ethereum/uniswap/v2/router/addliquidity/634d2024-2796-4288-b986-d6fb62336270.md>)
+            * [AddLiquidityETH](<prototypes/blockchain/ethereum/uniswap/v2/router/addliquidityeth/1c480aec-b4de-4093-b532-693f2f13a576.md>)
+          * [Router compiler](<prototypes/blockchain/ethereum/uniswap/v2/router compiler/125d96bd-7269-4cfb-ab93-366d611f2647.md>)
+          * [Router deployer](<prototypes/blockchain/ethereum/uniswap/v2/router deployer/0829c503-2486-4c90-9901-52439492c17e.md>)
+          * [WETH addresses](<prototypes/blockchain/ethereum/uniswap/v2/weth addresses/d016a834-c89f-414d-b3d4-48e6b5d924ef.md>)
+      * [Unit formatter](<prototypes/blockchain/ethereum/unit formatter/96f03be3-a29d-4637-aab1-6840bafeacb0.md>)
+      * [Unit parser](<prototypes/blockchain/ethereum/unit parser/eb3f5e07-27f3-42dc-9ac1-60f747d6c1b5.md>)
     * moralis
       * actions
         * [Bulk auto-metadata uploader](<prototypes/blockchain/moralis/actions/bulk auto-metadata uploader/1e73bb54-fb0b-418b-bcfb-4c30bf792f96.md>)
@@ -139,21 +198,12 @@
         * [NFT data getter](<prototypes/blockchain/moralis/api v2/nft data getter/27ed844a-2456-480d-b045-a53d7ef0fbaf.md>)
         * [NFT transfers lister](<prototypes/blockchain/moralis/api v2/nft transfers lister/a490b7c6-e6f7-4bf1-8ef0-6124b1919f30.md>)
       * [Folder uploader](<prototypes/blockchain/moralis/folder uploader/55a07049-01f0-46b4-aea0-35be55c4ee77.md>)
-    * nftport
-      * api v0
-        * [Counterfeit NFT URL finder with token ID](<prototypes/blockchain/nftport/api v0/counterfeit nft url finder with token id/b27ed6a7-b0d5-4c9d-af11-a3f53ee3d905.md>)
-        * [Created NFT lister](<prototypes/blockchain/nftport/api v0/created nft lister/a5c362a0-625f-447e-b47a-db20a0fb4596.md>)
-        * [GET request dispatcher](<prototypes/blockchain/nftport/api v0/get request dispatcher/0fb9e1d1-2e47-4422-9d74-ee7dad457193.md>)
-        * [NFT transaction lister by contract](<prototypes/blockchain/nftport/api v0/nft transaction lister by contract/1c9eaade-df71-44b2-9c13-9696630bc3aa.md>)
-        * [POST request dispatcher](<prototypes/blockchain/nftport/api v0/post request dispatcher/ab9554e7-142f-4ceb-81e4-54a7a2593a03.md>)
-        * [Request dispatcher](<prototypes/blockchain/nftport/api v0/request dispatcher/9a97bdc7-ef78-4360-8027-a77aa6ad7713.md>)
-        * utils
-          * [Error detector](<prototypes/blockchain/nftport/api v0/utils/error detector/aec01100-fd47-469c-8562-620283ae83c3.md>)
   * boolean
     * [And](<prototypes/boolean/and/f8466ac8-afe7-4931-abac-3e8679e23199.md>)
     * [Condition](<prototypes/boolean/condition/a9ccc258-8320-46cd-a29a-180316401e63.md>)
     * [Equality tester](<prototypes/boolean/equality tester/1e9c7987-c42c-4980-81ca-381002c302a1.md>)
     * [Evaluator](<prototypes/boolean/evaluator/9d298219-6b80-41a1-aae7-2f8907a76c32.md>)
+    * [Nand](<prototypes/boolean/nand/a5f368aa-2cea-4110-a170-c08ec18a6a63.md>)
     * [Not](<prototypes/boolean/not/f4ae2e14-2316-42ca-a3be-e1de3eaff164.md>)
     * [Or](<prototypes/boolean/or/39e5f41a-9931-4125-8857-1a0fdf6eba7c.md>)
     * [Reverse condition](<prototypes/boolean/reverse condition/73b8273f-ef86-4797-8443-ab5662dda5d5.md>)
@@ -166,6 +216,7 @@
       * [Builder](<prototypes/data/array/builder/28bc82de-76de-427e-8e2c-f0114cee3475.md>)
       * [Concatenator](<prototypes/data/array/concatenator/b1f7e4b1-2ab4-4a0d-b717-ddb5989e514b.md>)
       * [Contains tester](<prototypes/data/array/contains tester/93c95651-caf0-43d0-9967-b45f143837a0.md>)
+      * [Distinct items filter](<prototypes/data/array/distinct items filter/c0982f01-17af-4e02-97be-51d440e0f950.md>)
       * [Emptiness tester](<prototypes/data/array/emptiness tester/4100c620-45a7-4e36-b3d6-4252cc616d1e.md>)
       * [Filter](<prototypes/data/array/filter/a3f6c365-be00-4e30-9772-877f6c38c4f3.md>)
       * [First item getter](<prototypes/data/array/first item getter/5bead7ea-5031-4993-a855-dc9ca089802f.md>)
@@ -182,7 +233,8 @@
       * [Last item getter](<prototypes/data/array/last item getter/4a0c6a02-1411-407f-93a5-636b942968d8.md>)
       * [Length getter](<prototypes/data/array/length getter/ed50d3dd-e850-434d-a4da-90d05fc35e8b.md>)
       * [Mapper](<prototypes/data/array/mapper/8193ce91-bc7b-4d4d-89d6-49abe83d2de3.md>)
-      * [Order reverser](<prototypes/data/array/order reverser/f502fac7-0760-4b0f-be07-ee4d5aea44e2.md>)
+      * [Order reverser](<prototypes/data/array/order reverser/dcbd165f-6a8c-4ba4-b92c-4e8550fd83aa.md>)
+      * [Order reverser (mutable)](<prototypes/data/array/order reverser (mutable)/f502fac7-0760-4b0f-be07-ee4d5aea44e2.md>)
       * [Reducer](<prototypes/data/array/reducer/e52eeb07-83b7-46c6-bdc1-87cb8bd8afe8.md>)
       * [Repeater](<prototypes/data/array/repeater/384a63e5-dbde-4312-99d1-257fa935c2fe.md>)
       * [Slicer](<prototypes/data/array/slicer/c5b1e9d0-963f-4aed-8d2f-a042b3cf6ca3.md>)
@@ -204,6 +256,9 @@
       * [Builder (key-value pairs)](<prototypes/data/dictionary/builder (key-value pairs)/9c4ba861-295c-4b59-be22-fc4482fde20c.md>)
       * [Builder (keys & value)](<prototypes/data/dictionary/builder (keys & value)/e28bc4fb-7d10-459a-9037-c48de5aee16c.md>)
       * [Builder (keys & values)](<prototypes/data/dictionary/builder (keys & values)/a1f5e88b-1a03-464d-a797-0e678404eead.md>)
+      * [Common keys extractor](<prototypes/data/dictionary/common keys extractor/ac0878c7-a869-43b4-899a-9258d840104d.md>)
+      * [Emptiness tester](<prototypes/data/dictionary/emptiness tester/8ea559b1-145b-4baf-8a27-64b654d81763.md>)
+      * [Filter](<prototypes/data/dictionary/filter/54dd8437-a9f5-43fc-a815-9becb5a90c48.md>)
       * [Has key tester](<prototypes/data/dictionary/has key tester/4e077cdd-36d3-43d4-b206-3a4386a748ba.md>)
       * [Has keys tester](<prototypes/data/dictionary/has keys tester/c9d77cd3-9173-412d-af3e-adae9230d5ea.md>)
       * [Inner joiner](<prototypes/data/dictionary/inner joiner/20ab24f4-9017-4cf1-9b44-45211ec3d074.md>)
@@ -212,7 +267,7 @@
       * [Item getter](<prototypes/data/dictionary/item getter/857aacdb-326e-4b2e-a261-5197b667e14f.md>)
       * [Item getter with default](<prototypes/data/dictionary/item getter with default/037e67ce-aa64-449c-a3db-80dce00f1096.md>)
       * [Item setter](<prototypes/data/dictionary/item setter/3966e767-b7a7-4221-961d-338a13d18c57.md>)
-      * [Items getter](<prototypes/data/dictionary/items getter/83ac4d5d-9ac9-48d0-ae17-a5a77b18cfb6.md>)
+      * [Items getter](<prototypes/data/dictionary/items getter/29a6f0f8-3472-4f31-8363-a9cdd575913d.md>)
       * [Iterator](<prototypes/data/dictionary/iterator/a023425b-fa42-4999-a19e-6cbcd623166a.md>)
       * [JSON parser](<prototypes/data/dictionary/json parser/6470bc83-fb15-4801-942a-6f6dbc46a908.md>)
       * [JSON serializer](<prototypes/data/dictionary/json serializer/70e5222f-b0aa-4eca-843c-e0a46fdac803.md>)
@@ -220,6 +275,7 @@
       * [Keys getter](<prototypes/data/dictionary/keys getter/39c76f61-a0f8-498f-9b94-94e0194ad51a.md>)
       * [Mapper](<prototypes/data/dictionary/mapper/90061d99-64eb-4260-ac6d-abdf4c6e9fb1.md>)
       * [Merger](<prototypes/data/dictionary/merger/b7a6187f-2d42-4e0c-b0b7-8e1ec0f45301.md>)
+      * [Reducer](<prototypes/data/dictionary/reducer/2bf48472-c767-4027-b283-8d823e2004cf.md>)
       * [Repeater](<prototypes/data/dictionary/repeater/335d91cb-607f-4e04-af26-357558fca0eb.md>)
       * [Size getter](<prototypes/data/dictionary/size getter/b697b72b-f4db-403f-8ef4-4a7387b74470.md>)
       * [Structure tester](<prototypes/data/dictionary/structure tester/1103810c-ece3-4274-987a-03447817473f.md>)
@@ -227,15 +283,22 @@
       * [Value parser](<prototypes/data/dictionary/value parser/86f945ff-9d36-4566-a537-d4f4038b097d.md>)
       * [Value tester](<prototypes/data/dictionary/value tester/df0d7d02-b2c0-41f6-851b-eb14878615c5.md>)
       * [Values getter](<prototypes/data/dictionary/values getter/3419d082-1bea-4e6b-8dfb-47eabfe792b0.md>)
+      * [Values getter by keys](<prototypes/data/dictionary/values getter by keys/83ac4d5d-9ac9-48d0-ae17-a5a77b18cfb6.md>)
       * [Values parser](<prototypes/data/dictionary/values parser/0198ce3f-99c1-4386-b53e-f7366327f80c.md>)
     * [Dynamic parser](<prototypes/data/dynamic parser/bb5ddc63-3a97-4584-ac9c-076cb48f1cde.md>)
     * [Equality tester (strict)](<prototypes/data/equality tester (strict)/e295b2a6-bbd6-4f70-8509-bd7b96b414e6.md>)
     * invertible dictionary
       * [Item adder](<prototypes/data/invertible dictionary/item adder/4e696d6b-953f-4177-94a6-ec3fc58261a2.md>)
+    * [Shared store getter](<prototypes/data/shared store getter/2d7fd69e-e92a-485d-844d-51d64861c68f.md>)
+    * [Shared store setter](<prototypes/data/shared store setter/13f860ae-0d8b-462a-98dc-29835c4de357.md>)
     * [Store](<prototypes/data/store/485b6519-9402-4e78-8599-47ad52c92b2f.md>)
     * [Store (async)](<prototypes/data/store (async)/aa5f3cb3-2506-4ac8-93cc-cf7d20b36688.md>)
     * table
+      * [Column adder](<prototypes/data/table/column adder/2b36596e-87f3-4235-b2bf-b5b38bae0afe.md>)
+      * [Empty row filter](<prototypes/data/table/empty row filter/e6114e19-a1d0-4034-ad31-ce936aa2d12d.md>)
       * [Field serializer](<prototypes/data/table/field serializer/63c657c1-4290-4bc9-b892-ee41585c94a5.md>)
+      * [Inner joiner](<prototypes/data/table/inner joiner/18e4f54f-b9cd-4894-859d-ad98690b0f85.md>)
+      * [Unique field indexer](<prototypes/data/table/unique field indexer/c541bed4-73ae-406f-8b68-feed0a735ac3.md>)
       * utils
         * [Fields extractor](<prototypes/data/table/utils/fields extractor/669e8f6c-2206-4353-8a0b-b6eebb1c27fa.md>)
     * tree
@@ -273,6 +336,7 @@
   * debug
     * [Logger](<prototypes/debug/logger/1d2a6438-e4bd-4105-b491-cebbb4cae348.md>)
     * [Logger (unformatted)](<prototypes/debug/logger (unformatted)/8992956b-cea7-4b73-8f30-d40f49893f9a.md>)
+    * [Multiplexed event logger](<prototypes/debug/multiplexed event logger/6537b272-6360-4b41-9967-d307cab9648e.md>)
     * [Output formatter](<prototypes/debug/output formatter/fcf45309-c43e-42ee-8335-1957ca9f427e.md>)
     * [Unsuccessfull http response logger](<prototypes/debug/unsuccessfull http response logger/c86838c8-2f72-4b82-8fdf-2e12db9c8b04.md>)
   * examples
@@ -294,6 +358,7 @@
   * flow
     * [Aggregator](<prototypes/flow/aggregator/9f2feb24-d675-4c90-adf2-4fbf4a3cc117.md>)
     * [Aggregator (async)](<prototypes/flow/aggregator (async)/bca9d1a1-0963-430c-b523-3fb52e2851cc.md>)
+    * [Array emptiness fork](<prototypes/flow/array emptiness fork/3c4dd863-5019-4842-9267-cabe0180b9a0.md>)
     * [Debouncer](<prototypes/flow/debouncer/7538a471-3171-448e-afe4-247b3a0d131a.md>)
     * [Delayer](<prototypes/flow/delayer/9e917e4a-68d4-40f5-b47d-ba6de12047aa.md>)
     * [Demultiplexer](<prototypes/flow/demultiplexer/090f60d2-f942-49dc-b0ff-d736f9872988.md>)
@@ -307,6 +372,7 @@
     * [Gate](<prototypes/flow/gate/40a2e145-0193-461f-978a-d6aaf4a7ea09.md>)
     * [Multiplexer](<prototypes/flow/multiplexer/69f0d61a-989b-45f0-a2ca-a148c5e58323.md>)
     * [Parameter](<prototypes/flow/parameter/321d0ab7-fd53-436d-8c08-8eff32103e5f.md>)
+    * [Parameter with default](<prototypes/flow/parameter with default/a6599b7b-502d-437b-9c84-0f504921bb41.md>)
     * [Queued forwarder](<prototypes/flow/queued forwarder/0ab7ada0-580b-41c1-8ec1-99e3165d38bc.md>)
     * [Repeater](<prototypes/flow/repeater/79b67425-0224-45da-bdcd-3adbe2a1812f.md>)
     * [Shifter](<prototypes/flow/shifter/14ded86b-1b95-40cf-aead-585d5dd81c7d.md>)
@@ -322,11 +388,15 @@
     * [Throttler](<prototypes/flow/throttler/26a5a6c3-21f7-45f2-a466-a2bf0a3c727f.md>)
     * utils
       * [Burst tester](<prototypes/flow/utils/burst tester/48bec0ab-febd-483f-b177-ca7cfb2610b0.md>)
+  * fx
+    * yahoo finance
+      * [Currency converter](<prototypes/fx/yahoo finance/currency converter/7be1dab4-d83f-4276-9b78-96beef4ef8ee.md>)
   * html
     * [XPath value finder](<prototypes/html/xpath value finder/4ea708d0-8092-441e-bbd5-ef333d52e1dc.md>)
   * io
     * file
       * [Binary reader](<prototypes/io/file/binary reader/0f3adae4-2f1b-4f8f-90ed-463b9fc92edb.md>)
+      * [Binary writer](<prototypes/io/file/binary writer/a92a6e2b-166e-4b43-8dc4-3674d8ef5faf.md>)
       * [Deleter](<prototypes/io/file/deleter/70bef097-0789-4a72-914c-401e017e6e2c.md>)
       * [Directory creator](<prototypes/io/file/directory creator/13a8743b-5ac2-4e2c-bc67-89dd7ce273ea.md>)
       * [Directory lister](<prototypes/io/file/directory lister/e89603b7-7f56-47d0-a3ef-b73ccfb90b79.md>)
@@ -358,35 +428,31 @@
       * [Text reader](<prototypes/io/file/text reader/712583d9-30e2-4ec7-81c7-3a12ee18c4e8.md>)
       * [Text writer](<prototypes/io/file/text writer/c4812ed9-c9c7-42ba-8e7f-4b8721090de0.md>)
     * http
-      * express
-        * [DELETE handler](<prototypes/io/http/express/delete handler/be15e375-7e35-495f-ada4-2f633700eb4e.md>)
-        * [Endpoint listener](<prototypes/io/http/express/endpoint listener/3e022fe6-001b-45a9-9d81-14f1581bef8c.md>)
-        * [Express](<prototypes/io/http/express/express/ed69232f-75e0-4633-b602-9159d8f3c841.md>)
-        * [GET handler](<prototypes/io/http/express/get handler/23b7a891-6960-4481-aa32-5a00d0970aa9.md>)
-        * [JSON listener](<prototypes/io/http/express/json listener/c7c74b6e-e9c1-4a52-bc36-dfbe1dca288e.md>)
-        * [Listener](<prototypes/io/http/express/listener/571c94c6-38b1-4212-833a-b947f50fadec.md>)
-        * middleware
-          * [Request timeout handler](<prototypes/io/http/express/middleware/request timeout handler/e174bc41-9e21-4797-abeb-c088a6cb68c9.md>)
-        * [Middleware applicator](<prototypes/io/http/express/middleware applicator/f11e66a5-1a5c-406b-bfe0-d21a5bf6297d.md>)
-        * [Middlewares applicator](<prototypes/io/http/express/middlewares applicator/223c258a-c95c-4883-b843-500555539885.md>)
-        * [PATCH handler](<prototypes/io/http/express/patch handler/50fed033-62ca-489a-8aaf-49d15473ccfc.md>)
-        * [POST handler](<prototypes/io/http/express/post handler/9a867068-e0ff-4f43-b3e5-cfaab115af8d.md>)
-        * [PUT handler](<prototypes/io/http/express/put handler/6493e928-7c3d-410b-b994-3c04e15f7690.md>)
-        * [Route handler](<prototypes/io/http/express/route handler/a63f623a-f4b2-4a06-acca-83774cd4ca41.md>)
-        * [Text listener](<prototypes/io/http/express/text listener/30adb71e-d3e0-4960-936d-57f48e489f15.md>)
-        * utils
-          * [Content type middleware applicator](<prototypes/io/http/express/utils/content type middleware applicator/1d2a424f-215d-4dac-a939-b2a9f2d61cf8.md>)
       * [Form-data request dispatcher](<prototypes/io/http/form-data request dispatcher/989f1602-e857-4d5e-a7af-0905f12a1f45.md>)
       * [HTML Form POST request dispatcher](<prototypes/io/http/html form post request dispatcher/88ec6117-e970-47ca-81f6-70c633880e85.md>)
       * [JSON request dispatcher](<prototypes/io/http/json request dispatcher/cda14b10-9f4c-4f9b-84df-da475264fbd3.md>)
       * [JSON request dispatcher (deprecated)](<prototypes/io/http/json request dispatcher (deprecated)/2c32b709-466e-4797-a314-2486b20eb190.md>)
       * [Request dispatcher](<prototypes/io/http/request dispatcher/dcd9db32-5536-4152-950e-a48ef183552c.md>)
       * [Request dispatcher (deprecated)](<prototypes/io/http/request dispatcher (deprecated)/83ebbf9f-d428-4577-a650-761868a002dc.md>)
+      * server
+        * [Endpoint listener](<prototypes/io/http/server/endpoint listener/3e022fe6-001b-45a9-9d81-14f1581bef8c.md>)
+          * [Server error checker](<prototypes/io/http/server/endpoint listener/server error checker/0faadab5-12bc-4bd8-b7e1-0bd8ddf21a43.md>)
+        * [Error response generator](<prototypes/io/http/server/error response generator/4299911c-a68f-44fb-93de-c0319557cd3c.md>)
+        * [Simplified endpoint listener](<prototypes/io/http/server/simplified endpoint listener/cf29d613-2fc6-4230-8c7f-bd86cb1c4c9e.md>)
+        * utils
+          * [JSON request body parser](<prototypes/io/http/server/utils/json request body parser/d61c432a-5b9e-483c-a103-5bb0c8f69748.md>)
+          * [JSON response builder](<prototypes/io/http/server/utils/json response builder/82cf508e-5b08-43de-8c18-9e471f861c18.md>)
+          * [Query params getter](<prototypes/io/http/server/utils/query params getter/3c2b2b2d-0790-4dd2-83a6-21b15c09c223.md>)
+          * [Request authenticator](<prototypes/io/http/server/utils/request authenticator/bae8978b-45ee-483a-8e7d-d9b2cfef0b66.md>)
+          * [Request timeout handler](<prototypes/io/http/server/utils/request timeout handler/e174bc41-9e21-4797-abeb-c088a6cb68c9.md>)
+          * [Response builder](<prototypes/io/http/server/utils/response builder/d0b45448-d851-4132-8abb-2a1c09347146.md>)
+          * [Response content type applicator](<prototypes/io/http/server/utils/response content type applicator/ad05eb6d-f87c-407b-8906-fef794d28856.md>)
       * [URL search params serializer](<prototypes/io/http/url search params serializer/506a2d51-6d29-406d-be70-5e5de945a524.md>)
       * [URL-encoded request dispatcher](<prototypes/io/http/url-encoded request dispatcher/f946e595-da67-400f-9316-dfcf07f5ac10.md>)
       * utils
         * [API key inserter](<prototypes/io/http/utils/api key inserter/40288c7d-958f-44ae-95ab-e3768ec28ebe.md>)
         * [Authorization inserter](<prototypes/io/http/utils/authorization inserter/3b11f6f4-2fb1-4007-b81a-eddb43938b8e.md>)
+        * [Basic authorization inserter](<prototypes/io/http/utils/basic authorization inserter/3288419c-e3c1-4a79-95f5-40789cee4de3.md>)
         * [Bearer token checker](<prototypes/io/http/utils/bearer token checker/be35b9df-13e1-44f4-ad89-6d75f897bcdb.md>)
         * [Bearer token inserter](<prototypes/io/http/utils/bearer token inserter/0a7ee808-3e3b-47b2-85bb-72f5e1c7f5e3.md>)
         * [Body-less request builder](<prototypes/io/http/utils/body-less request builder/39ccfb28-afad-4f91-b70b-65f5513e1b5d.md>)
@@ -406,13 +472,9 @@
         * [Query param builder](<prototypes/io/http/utils/query param builder/c650d591-cfc5-4e21-bbe8-69ec182ae1f0.md>)
         * [Query param serializer](<prototypes/io/http/utils/query param serializer/592ff617-9f47-49f0-a198-723c4c1104fa.md>)
         * [Query params flattener](<prototypes/io/http/utils/query params flattener/783a4627-5063-4b3c-8d64-5f4deb8e1b54.md>)
-        * [Query params getter](<prototypes/io/http/utils/query params getter/3c2b2b2d-0790-4dd2-83a6-21b15c09c223.md>)
         * [Query string builder](<prototypes/io/http/utils/query string builder/81d80d25-403d-4fdc-a4c7-0f6ed1379e52.md>)
-        * [Request authenticator](<prototypes/io/http/utils/request authenticator/bae8978b-45ee-483a-8e7d-d9b2cfef0b66.md>)
         * [Request body getter](<prototypes/io/http/utils/request body getter/d069d982-84e8-443d-ba57-adba00b85a71.md>)
         * [Request builder](<prototypes/io/http/utils/request builder/6be23c7c-8aa2-43ab-b936-3fa854540f86.md>)
-        * [Response builder](<prototypes/io/http/utils/response builder/d0b45448-d851-4132-8abb-2a1c09347146.md>)
-        * [Response content type applicator](<prototypes/io/http/utils/response content type applicator/ad05eb6d-f87c-407b-8906-fef794d28856.md>)
         * [Response error detector](<prototypes/io/http/utils/response error detector/f1bc2eec-3119-4574-a7ae-476631806c5b.md>)
         * [Response fork by status](<prototypes/io/http/utils/response fork by status/e6087f98-9b77-45b7-af2d-feb94663bda1.md>)
         * [Response header merger](<prototypes/io/http/utils/response header merger/16e06706-c70d-4914-a172-90c87fbf84df.md>)
@@ -427,12 +489,7 @@
       * [Text writer](<prototypes/io/stdio/text writer/46a8b971-7a01-485f-9c22-5c31cb6ca213.md>)
   * json
     * [Parser](<prototypes/json/parser/810387ec-2121-49e7-a4ba-56f8fc782e65.md>)
-  * low-code
-    * io
-      * http
-        * [Error response generator](<prototypes/low-code/io/http/error response generator/4299911c-a68f-44fb-93de-c0319557cd3c.md>)
-        * express
-          * [Endpoint listener](<prototypes/low-code/io/http/express/endpoint listener/cf29d613-2fc6-4230-8c7f-bd86cb1c4c9e.md>)
+    * [Serializer](<prototypes/json/serializer/3820f096-6216-4049-b374-c98684387fea.md>)
   * number
     * [Abs](<prototypes/number/abs/57b9cd6a-3e10-48ee-897c-0bcba693357c.md>)
     * [Adder](<prototypes/number/adder/172e2a79-6dd8-450d-9c60-99073c933eeb.md>)
@@ -482,7 +539,6 @@
     * [One-time action result maintainer](<prototypes/scripting/one-time action result maintainer/ed1626b0-9a1a-4a77-a702-57575430beb7.md>)
     * [Params copier](<prototypes/scripting/params copier/359e8070-aed1-459b-a6d8-722f1d27378b.md>)
     * [Starter](<prototypes/scripting/starter/f358fba0-6806-4739-912a-3e37deff6d10.md>)
-    * [State reader](<prototypes/scripting/state reader/916f1365-3ef6-4c0f-8d11-93c71b4f3a16.md>)
     * [State writer](<prototypes/scripting/state writer/7fe3c64f-6642-4ed4-9757-a6006b30aac8.md>)
     * [Status to params mapping creator](<prototypes/scripting/status to params mapping creator/6b437beb-0074-483a-82de-9aa7c96120d9.md>)
   * sdk
@@ -506,23 +562,60 @@
     * web3
       * eth
         * [Transaction receipt getter](<prototypes/sdk/web3/eth/transaction receipt getter/7d0e9b43-579e-4f9e-8066-801334a9beea.md>)
+  * sdks
+    * ccxt
+      * private
+        * [Balance fetcher](<prototypes/sdks/ccxt/private/balance fetcher/6597084f-cdec-4e27-a57f-9fd18c907769.md>)
+        * [Closed orders fetcher](<prototypes/sdks/ccxt/private/closed orders fetcher/5a3c2175-64d7-49fe-ae26-395afc923fa0.md>)
+        * [My trades fetcher](<prototypes/sdks/ccxt/private/my trades fetcher/3419d4c7-e102-41bf-a516-064d4e6673f0.md>)
+        * [Open orders fetcher](<prototypes/sdks/ccxt/private/open orders fetcher/a45422c7-17b1-439b-a48c-02feaba538d3.md>)
+        * [Order canceller](<prototypes/sdks/ccxt/private/order canceller/a1782d3b-a41c-4154-9a36-24d3475ed8e6.md>)
+        * [Order creator](<prototypes/sdks/ccxt/private/order creator/04f19991-fc9a-4ed7-803f-a35a9948dbaf.md>)
+        * [Order fetcher](<prototypes/sdks/ccxt/private/order fetcher/417cb2f8-e4b7-4e84-a80d-30ce21f80af7.md>)
+        * [Orders fetcher](<prototypes/sdks/ccxt/private/orders fetcher/369bbd83-f512-43f3-b840-81b7dd1e97c9.md>)
+      * public
+        * [Exchange status fetcher](<prototypes/sdks/ccxt/public/exchange status fetcher/5f1ae14b-d09d-4576-8b08-6cfda06b354b.md>)
+        * [Markets loader](<prototypes/sdks/ccxt/public/markets loader/f6aed3c7-759e-49e1-8abc-7ab511fc6a81.md>)
+        * [Orderbook fetcher](<prototypes/sdks/ccxt/public/orderbook fetcher/aa146e68-959f-467f-9691-68f68f5a87b9.md>)
+        * [Orderbooks fetcher](<prototypes/sdks/ccxt/public/orderbooks fetcher/380e7dea-f9f4-43e1-9a48-351efa8df448.md>)
+        * [Ticker fetcher](<prototypes/sdks/ccxt/public/ticker fetcher/715c12b9-5eb6-4fa0-85f6-5b459264284f.md>)
+        * [Tickers fetcher](<prototypes/sdks/ccxt/public/tickers fetcher/d9f3497e-3660-41f3-896d-c3f2458e7e10.md>)
+      * utils
+        * [ccxt](<prototypes/sdks/ccxt/utils/ccxt/78a1eeb7-4555-465a-adb5-227c31799f63.md>)
+    * expressjs
+      * [Express](<prototypes/sdks/expressjs/express/ed69232f-75e0-4633-b602-9159d8f3c841.md>)
+      * [JSON listener](<prototypes/sdks/expressjs/json listener/c7c74b6e-e9c1-4a52-bc36-dfbe1dca288e.md>)
+      * [Listener](<prototypes/sdks/expressjs/listener/571c94c6-38b1-4212-833a-b947f50fadec.md>)
+      * [Middleware applicator](<prototypes/sdks/expressjs/middleware applicator/f11e66a5-1a5c-406b-bfe0-d21a5bf6297d.md>)
+      * [Middlewares applicator](<prototypes/sdks/expressjs/middlewares applicator/223c258a-c95c-4883-b843-500555539885.md>)
+      * [Route handler](<prototypes/sdks/expressjs/route handler/a63f623a-f4b2-4a06-acca-83774cd4ca41.md>)
+      * [Text listener](<prototypes/sdks/expressjs/text listener/30adb71e-d3e0-4960-936d-57f48e489f15.md>)
+      * utils
+        * [Content type middleware applicator](<prototypes/sdks/expressjs/utils/content type middleware applicator/1d2a424f-215d-4dac-a939-b2a9f2d61cf8.md>)
+        * [DELETE handler](<prototypes/sdks/expressjs/utils/delete handler/be15e375-7e35-495f-ada4-2f633700eb4e.md>)
+        * [GET handler](<prototypes/sdks/expressjs/utils/get handler/23b7a891-6960-4481-aa32-5a00d0970aa9.md>)
+        * [PATCH handler](<prototypes/sdks/expressjs/utils/patch handler/50fed033-62ca-489a-8aaf-49d15473ccfc.md>)
+        * [POST handler](<prototypes/sdks/expressjs/utils/post handler/9a867068-e0ff-4f43-b3e5-cfaab115af8d.md>)
+        * [PUT handler](<prototypes/sdks/expressjs/utils/put handler/6493e928-7c3d-410b-b994-3c04e15f7690.md>)
   * streaming
     * [Moving buffer](<prototypes/streaming/moving buffer/64f09a3c-111f-4984-90b5-2b824e1d6913.md>)
     * [Time-based moving buffer](<prototypes/streaming/time-based moving buffer/dcfbbb48-e17e-44ae-a18d-ee4195cd0b75.md>)
   * string
+    * [Base64 Decoder](<prototypes/string/base64 decoder/16a21c49-119b-4267-8ec1-89a28dc8ff72.md>)
+    * [Base64 Encoder](<prototypes/string/base64 encoder/48f75a7a-2cd8-4340-b96b-e096bee97ed3.md>)
     * [Concatenator](<prototypes/string/concatenator/7d656b61-f5f9-445d-ab75-e7bbeeb32062.md>)
     * [Contains tester](<prototypes/string/contains tester/0c5e27a9-1960-4f78-b984-ce90f7f38f30.md>)
     * [Custom template filler](<prototypes/string/custom template filler/04db51a6-0278-4937-9483-7406f96de641.md>)
     * [Emptiness tester](<prototypes/string/emptiness tester/4ed5e255-fd33-4e11-9bad-13f4cd4749aa.md>)
     * [Equality tester](<prototypes/string/equality tester/ff69726b-734e-4fb7-ac51-72c8eea8bdd6.md>)
-    * [Global regex matcher](<prototypes/string/global regex matcher/8449789e-3b23-4bf5-9c33-931015049dc5.md>)
     * [Global regex replacer](<prototypes/string/global regex replacer/5719fd66-d597-45ee-bff8-64106b48879e.md>)
     * [Handlebar style template filler](<prototypes/string/handlebar style template filler/7409b1d0-71e3-4534-9c01-8eddc7cf2617.md>)
     * [Joiner](<prototypes/string/joiner/63c75fc1-ec00-49a1-a42e-e82a58aa29a2.md>)
     * [Length getter](<prototypes/string/length getter/336065d6-c808-4e03-918f-8f3f7a84eda1.md>)
     * [Line splitter](<prototypes/string/line splitter/82779693-c687-40a4-9670-15ea843f0599.md>)
     * [Lowercaser](<prototypes/string/lowercaser/b2047f76-03e8-4d10-9ba1-f96176004aa4.md>)
-    * [Regex matcher](<prototypes/string/regex matcher/c9b76fa0-7428-4b19-8b09-63bf023088c9.md>)
+    * [Regex matcher](<prototypes/string/regex matcher/8449789e-3b23-4bf5-9c33-931015049dc5.md>)
+    * [Regex matcher - DEPRECATED](<prototypes/string/regex matcher - deprecated/c9b76fa0-7428-4b19-8b09-63bf023088c9.md>)
     * [Regex splitter](<prototypes/string/regex splitter/ecf09e5e-6518-4cb1-92fb-f1a96a783a6d.md>)
     * [Regex tester](<prototypes/string/regex tester/98f4e330-2578-4a0f-89c2-e90e8fff7ec4.md>)
     * [Splitter](<prototypes/string/splitter/e1418571-da49-467a-aefe-0a97394344e9.md>)
@@ -531,10 +624,12 @@
     * [Type tester](<prototypes/string/type tester/622ddf45-9067-4c20-bed0-45fb79f02050.md>)
     * [Uppercaser](<prototypes/string/uppercaser/2b4f9e1e-7593-4409-bbec-49cfd466b7fe.md>)
     * [URI component encoder](<prototypes/string/uri component encoder/be4ab3e0-5744-4223-803e-96519ee81b08.md>)
+    * [URL formatter](<prototypes/string/url formatter/8f7f2e0d-2a80-428c-904b-c8d603fab102.md>)
   * system
     * [Command runner](<prototypes/system/command runner/3a59ecad-a03e-4e65-ba38-c46a2fddbf1f.md>)
     * [Environment variable getter](<prototypes/system/environment variable getter/505f9cf6-92f9-4e19-ad69-62f485b56000.md>)
     * [Environment variable getter with fallback](<prototypes/system/environment variable getter with fallback/b2f33d14-f203-4d36-9d36-c724675d5f44.md>)
+    * [Environment variables getter](<prototypes/system/environment variables getter/6fef4921-1b64-4155-b4f5-9da367b90103.md>)
     * [Environment variables getter with fallback](<prototypes/system/environment variables getter with fallback/2ac2a613-e930-4e37-9a28-02ce0421836b.md>)
     * [Matched command runner](<prototypes/system/matched command runner/21a18059-1bb0-4468-bafc-be9a8d87fe52.md>)
     * [Simple command runner](<prototypes/system/simple command runner/b5a5fc7f-4cee-4549-947a-0a23463748ce.md>)
